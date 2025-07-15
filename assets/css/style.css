@@ -334,10 +334,10 @@ img {
 .section {
   padding: 4rem 2rem;
 }
-.section–light {
+.section-light {
   background: var(--clr-bg);
 }
-.section–dark {
+.section-dark {
   background: var(--clr-surface);
 }
 
@@ -348,11 +348,13 @@ img {
   margin-bottom: 0.5rem;
 }
 .section-subheading {
+  display: block;
   text-align: center;
   font-style: italic;
   color: var(--clr-text-muted);
   margin-bottom: 2rem;
 }
+
 
 /* —— Organizers Grid —— */
 .organizers-grid {
