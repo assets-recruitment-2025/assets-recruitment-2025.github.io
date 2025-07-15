@@ -406,21 +406,21 @@ img {
 /* Then individually set each section’s background */
 #participate {
   background:  #EFEFEF;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
 }
 #schedule {
   background: #DDDDDD;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
 }
 #organizers {
   background: #EFEFEF;           /* custom light gray */
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
 }
 #postworkshop {
   background: #DDDDDD;           /* another custom tone */
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
 }
