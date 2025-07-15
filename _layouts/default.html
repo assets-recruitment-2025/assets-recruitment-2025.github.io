@@ -5,26 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
 </head>
 <body>
-  <header>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header role="banner">
     <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <nav>
+
+    <nav role="navigation" aria-label="Main menu">
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/participate.html' | relative_url }}">Participate</a></li>
-        <li><a href="{{ '/organizers.html' | relative_url }}">Organizers</a></li>
-        <li><a href="{{ '/schedule.html' | relative_url }}">Schedule</a></li>
-        <li><a href="{{ '/resources.html' | relative_url }}">Resources</a></li>
-        <li><a href="{{ '/discord.html' | relative_url }}">Discord</a></li>
-        <li><a href="{{ '/postworkshop.html' | relative_url }}">Post-Workshop</a></li>
+        <li><a href="{{ '/participate/' | relative_url }}">Participate</a></li>
+        <li><a href="{{ '/organizers/' | relative_url }}">Organizers</a></li>
+        <li><a href="{{ '/schedule/' | relative_url }}">Schedule</a></li>
+        <li><a href="{{ '/resources/' | relative_url }}">Resources</a></li>
+        <li><a href="{{ '/discord/' | relative_url }}">Discord</a></li>
+        <li><a href="{{ '/postworkshop/' | relative_url }}">Post-Workshop</a></li>
       </ul>
     </nav>
   </header>
-  <main>
+
+  <main id="main">
     {{ content }}
   </main>
-  <footer>
+
+  <footer role="contentinfo">
     <p>&copy; 2025 ASSETS 2025 Workshop Organizers</p>
   </footer>
 </body>
