@@ -63,7 +63,7 @@ img {
   counter-reset: item;
   list-style: none;
   margin-left: 3;
-  padding-left: 0;
+  padding-left: 2rem;
 }
 .section-list li {
   counter-increment: item;
