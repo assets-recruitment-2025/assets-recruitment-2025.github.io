@@ -1,5 +1,3 @@
-#### postworkshop.md
-```markdown
 ---
 layout: default
 title: Post-Workshop

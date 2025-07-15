@@ -1,5 +1,3 @@
-#### schedule.md
-```markdown
 ---
 layout: default
 title: Schedule
@@ -12,4 +10,3 @@ title: Schedule
 | Oct 20, 2025 | 14:00–16:00 | Introduction & Themes      |
 | Oct 22, 2025 | 14:00–16:00 | Interest Groups            |
 | Oct 26, 2025 | 14:00–16:00 | Synthesis & Next Steps     |
-```  
