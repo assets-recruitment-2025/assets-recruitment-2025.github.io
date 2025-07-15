@@ -21,7 +21,7 @@
 
 html {
   /* make all in‑page jumps leave space for the header */
-  scroll-padding-top: 4.9rem; /* adjust this to header’s total height */
+  scroll-padding-top: 4.8rem; /* adjust this to header’s total height */
 }
 
 /* 2) RESET & BASE */
