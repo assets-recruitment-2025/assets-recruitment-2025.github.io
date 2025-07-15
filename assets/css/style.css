@@ -4,7 +4,7 @@
 :root {
   /* BACKGROUNDS & SURFACES */
   --clr-bg:        #F2F2F7; /* page background */
-  --clr-surface:   #8E8E93; /* cards, nav, footer */
+  --clr-surface:   #cfcfd0; /* cards, nav, footer */
 
   /* TEXT */
   --clr-text:      #1C1C1E; /* primary text */
