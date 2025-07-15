@@ -60,9 +60,22 @@ img {
 }
 
 .section-list {
-  list-style-type: decimal;       /* 1., 2., 3. */
-  margin-left: 3rem;            /* indent */
-  padding-left: 0;                
+  counter-reset: item;
+  list-style: none;
+  margin-left: 3;
+  padding-left: 0;
+}
+.section-list li {
+  counter-increment: item;
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 2rem;
+}
+.section-list li::before {
+  content: counter(item) ".";
+  position: absolute;
+  left: 0;
+  font-weight: 600;
 }
 
 /* 3) HEADER & NAV */
