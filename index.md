@@ -101,10 +101,3 @@ permalink: /
     </div>
   </div>
 </section>
-
-<!-- POST-WORKSHOP -->
-<section id="postworkshop" class="section section–dark" aria-labelledby="postworkshop-heading">
-  <h2 id="postworkshop-heading" class="section-heading">Post-Workshop</h2>
-  <p class="section-subheading">Proceedings, recordings, and next steps</p>
-  <p>Proceedings, recordings, and collaborative white papers will be published here.</p>
-</section>

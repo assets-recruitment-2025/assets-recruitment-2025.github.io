@@ -415,12 +415,6 @@ img {
   padding-left: 25rem;
   padding-right: 25rem;
 }
-#postworkshop {
-  background: #EFEFEF;          /* another custom tone */
-  padding-left: 25rem;
-  padding-right: 25rem;
-}
-
 
 /* —— KEEP this flex‑based layout —— */
 #organizers .organizers-grid {
