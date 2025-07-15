@@ -122,21 +122,21 @@ permalink: /
         <td>Session 1</td>
         <td>90 min</td>
         <td>
-          Welcome & introductions, themed group discussions, synthesis
+          Welcome & introductions, followed by themed group discussions and summarization.
         </td>
       </tr>
       <tr>
         <td>Session 2</td>
         <td>90 min</td>
         <td>
-          Share‑out from Session 1, interest‑based group discussions, synthesis
+          Begin with a shareout from the small groups from Session 1, including discussions on Discord. Then, interest-based group discussions and summarization.
         </td>
       </tr>
       <tr>
         <td>Session 3</td>
         <td>60 min</td>
         <td>
-          Share‑out from Session 2, identify themes, recommendations, open questions
+          Begin with a shareout from the small groups from Session 2, including discussions on Discord. Then, identify themes, concrete recommendations, and lingering questions identified throughout the workshop.
         </td>
       </tr>
     </tbody>
