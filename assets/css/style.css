@@ -458,3 +458,8 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* target just the affiliation <p> inside each .organizer */
+.organizer p:last-child {
+  white-space: nowrap;
+}
