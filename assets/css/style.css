@@ -402,3 +402,17 @@ img {
   margin: 0 auto;      /* center the block */
   padding: 0 1rem;     /* horizontal gutter on small screens */
 }
+
+/* Then individually set each section’s background */
+#participate {
+  background: var(--clr-bg);
+}
+#schedule {
+  background: var(--clr-surface);
+}
+#organizers {
+  background: #EFEFEF;           /* custom light gray */
+}
+#postworkshop {
+  background: #DDDDDD;           /* another custom tone */
+}
