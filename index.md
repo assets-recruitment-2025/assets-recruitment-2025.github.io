@@ -73,26 +73,38 @@ permalink: /
       <h3>Before the Workshop</h3>
       <ul>
         <li>
-          Welcome email with Discord invite + poll (topics & avail)  
-          <br><small>due Sept 1, 2025</small>
+          A welcome email will include instructions on how to join the workshops’ Discord, and a poll for participants' specific topics of interest (for Session 2) and availability for different options for the 3 sessions, due September 1, 2025.
         </li>
         <li>
-          Prepare slides (1–2) or 1‑min intro video  
-          <br><small>due Sept 30, 2025</small>
+          We will also request that participants prepare 1-2 slides or a 1-minute video introduction by September 30, 2025, which we will share asynchronously before the workshop begins.
         </li>
       </ul>
     </div>
     <div class="phase">
       <h3>During the Workshop</h3>
-      <p>
-        Each session is a 60–90 min small‑group discussion + synthesis. We’ll post summaries to Discord after every session for async follow‑up.
-      </p>
+      <ul>
+        <li>
+          The workshop will consist of synchronous themed group small discussions, followed by summarization of the discussion.
+        </li>
+        <li>
+          We will post summaries of the discussions to Discord after every session to also support asynchronous discussions before sharing out.
+        </li>
+        <li>
+          We will begin with discussions around the workshop's topics, followed by discussions centered around specific interests indicated by participants.
+        </li>
+      </ul>
     </div>
     <div class="phase">
       <h3>After the Workshop</h3>
       <p>
-        All recordings & materials remain on Discord for ongoing discussion. Organizers will draft a white paper and welcome contributors.
-      </p>
+      <ul>
+        <li>
+          We will maintain access to the workshop's content for asynchronous interactions.
+        </li>
+        <li>
+          The organizers will also write a white paper summarizing the workshop's outcomes and invite interested participants to contribute.
+        </li>
+      </ul>
     </div>
   </div>
 
