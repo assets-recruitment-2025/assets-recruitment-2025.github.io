@@ -336,3 +336,10 @@ img {
   color: var(--clr-text-muted);
   font-size: 0.95rem;
 }
+
+/* —— Centered Content Wrapper —— */
+.content-wrapper {
+  max-width: 900px;    /* adjust to taste */
+  margin: 0 auto;      /* center the block */
+  padding: 0 1rem;     /* horizontal gutter on small screens */
+}
