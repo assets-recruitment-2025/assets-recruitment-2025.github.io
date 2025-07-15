@@ -411,8 +411,8 @@ img {
 }
 #schedule {
   background: #DDDDDD;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 #organizers {
   background: #EFEFEF;           /* custom light gray */
