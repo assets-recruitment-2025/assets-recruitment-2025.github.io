@@ -61,7 +61,7 @@ img {
 
 .section-list {
   list-style-type: decimal;       /* 1., 2., 3. */
-  margin-left: 1.5rem;            /* indent */
+  margin-left: 3rem;            /* indent */
   padding-left: 0;                
 }
 
@@ -71,8 +71,8 @@ img {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: #000;        /* black header */
-  color: #fff;             /* white text */
+  background: #000;
+  color: #fff;         
 }
 .navbar {
   max-width: 1200px;
