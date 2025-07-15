@@ -366,6 +366,26 @@ img {
   max-width: 240px;
 }
 
+.organizer img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--clr-secondary);
+}
+
+.organizer h3 {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 1.25rem;
+  color: var(--clr-text);
+}
+
+.organizer p {
+  margin: 0.25rem 0;
+  color: var(--clr-text-muted);
+  font-size: 0.95rem;
+}
+
 /* A reusable wrapper class */
 .site-container {
   max-width: var(--site-max);
@@ -396,21 +416,6 @@ img {
 }
 
 
-/* —— Organizers as 3‑then‑2 flex rows —— */
-#organizers .organizers-grid {
-  display: flex;
-  flex-wrap: wrap;
-  /* exactly three 240px cards + 2 gaps: */
-  max-width: calc(3 * 240px + 2 * var(--gap));
-  margin: 0 auto;              /* center the whole block */
-  justify-content: center;     /* center each row’s items */
-  gap: var(--gap);
-}
-
-#organizers .organizer {
-  flex: 0 0 240px;             /* each card is 240px wide */
-  text-align: center;          /* center its text */
-}
 
 
 /* Place the 4th and 5th organizers under columns 2 & 3 */
@@ -427,6 +432,23 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* —— Organizers as 3‑then‑2 flex rows —— */
+#organizers .organizers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  /* exactly three 240px cards + 2 gaps: */
+  max-width: calc(3 * 240px + 2 * var(--gap));
+  margin: 0 auto;              /* center the whole block */
+  justify-content: center;     /* center each row’s items */
+  gap: var(--gap);
+}
+
+#organizers .organizer {
+  flex: 0 0 240px;             /* each card is 240px wide */
+  text-align: center;          /* center its text */
+}
+
 
 #organizers {
   text-align: center;
