@@ -83,7 +83,7 @@ permalink: /
       <img src="assets/img/khang.jpg" alt="Photo of Khang Dang">
       <h3>Khang Dang</h3>
       <p>Ph.D. Candidate</p>
-      <p>New Jersey Institute of Technology</p>
+      <p>New&nbsp;Jersey&nbsp;Institute&nbsp;of&nbsp;Technology</p>
     </div>
 
     <!-- Row 2 -->
@@ -91,7 +91,7 @@ permalink: /
       <img src="assets/img/sooyeon.jpg" alt="Photo of Sooyeon Lee">
       <h3>Sooyeon Lee</h3>
       <p>Assistant Professor</p>
-      <p>New Jersey Institute of Technology</p>
+      <p>New&nbsp;Jersey&nbsp;Institute&nbsp;of&nbsp;Technology</p>
     </div>
     <div class="organizer">
       <img src="assets/img/oliver.jpg" alt="Photo of Oliver Alonzo">
