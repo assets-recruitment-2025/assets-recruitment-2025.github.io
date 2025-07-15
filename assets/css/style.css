@@ -1,17 +1,23 @@
-/* assets/css/style.css */
-
 /* 1) FONT + COLOR VARIABLES */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 :root {
-  --clr-primary:   #1C1C1E; /* page background */
-  --clr-surface:   #2C2C2E; /* cards, nav */
+  /* BACKGROUNDS & SURFACES */
+  --clr-bg:        #1C1C1E; /* page background */
+  --clr-surface:   #2C2C2E; /* cards, nav, footer */
+
+  /* TEXT */
   --clr-text:      #F2F2F7; /* primary text */
   --clr-text-muted:#8E8E93; /* secondary text */
-  --clr-accent:    #FF9F0A; /* buttons, links */
-  --clr-secondary: #FFCC00; /* hover, highlights */
-}
 
+  /* ACCENTS */
+  --clr-accent:    #FF9F0A; /* primary buttons/links */
+  --clr-secondary: #FFCC00; /* secondary buttons/hover/highlights */
+
+  /* LAYOUT */
+  --gap:           1.5rem;
+  --radius:        6px;
+}
 
 /* 2) RESET & BASE */
 * {
@@ -63,8 +69,7 @@ img {
 
 /* 3) HEADER & NAV */
 .site-header {
-  background: var(--clr-primary);
-  color: #fff;
+  background: var(--clr-surface);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -80,14 +85,14 @@ img {
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--clr-text);
 }
 .nav-links {
   display: flex;
   gap: var(--gap);
 }
 .nav-links a {
-  color: #fff;
+  color: var(--clr-text);
   font-weight: 600;
   padding: 0.5rem 0.75rem;
   border-radius: var(--radius);
@@ -101,7 +106,7 @@ img {
   display: none;
   background: none;
   border: none;
-  color: #fff;
+  color: var(--clr-text);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -155,7 +160,7 @@ img {
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
-  background: #006680;
+  background: #e6b800;
 }
 
 /* 6) FEATURES GRID */
@@ -208,8 +213,8 @@ img {
 
 /* 8) FOOTER */
 .site-footer {
-  background: var(--clr-primary);
-  color: #fff;
+  background: var(--clr-surface);
+  color: var(--clr-text);
   text-align: center;
   padding: 2rem;
 }
@@ -227,7 +232,7 @@ img {
 }
 .social-links a {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--clr-text);
   transition: color 0.2s;
 }
 .social-links a:hover,
@@ -244,7 +249,7 @@ img {
     position: absolute;
     top: 100%;
     right: 0;
-    background: var(--clr-primary);
+    background: var(--clr-surface);
     flex-direction: column;
     width: 200px;
     transform: translateX(100%);
