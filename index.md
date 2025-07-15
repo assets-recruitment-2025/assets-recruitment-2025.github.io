@@ -96,7 +96,6 @@ permalink: /
     </div>
     <div class="phase">
       <h3>After the Workshop</h3>
-      <p>
       <ul>
         <li>
           We will maintain access to the workshop's content for asynchronous interactions.
