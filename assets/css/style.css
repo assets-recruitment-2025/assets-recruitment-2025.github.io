@@ -424,3 +424,20 @@ img {
   padding-left: 25rem;
   padding-right: 25rem;
 }
+
+/* —— Override Organizers Grid for exactly 3 in row 1, 2 in row 2 —— */
+#organizers .organizers-grid {
+  display: grid;
+  /* always 3 equal columns */
+  grid-template-columns: repeat(3, minmax(240px, 1fr));
+  gap: var(--gap);
+  justify-content: center;    /* center the whole grid inside its container */
+  text-align: center;         /* center text inside each cell */
+}
+
+/* on narrower screens, fallback to two columns */
+@media (max-width: 768px) {
+  #organizers .organizers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
