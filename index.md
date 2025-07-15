@@ -50,14 +50,85 @@ permalink: /
 </section>
 
 <!-- SCHEDULE -->
-<section id="schedule" class="section section–dark" aria-labelledby="schedule-heading">
+<section
+  id="schedule"
+  class="section section-dark"
+  aria-labelledby="schedule-heading"
+>
   <h2 id="schedule-heading" class="section-heading">Schedule</h2>
-  <p class="section-subheading">Three interactive sessions across three days</p>
-  <ul>
-    <li><strong>Day 1:</strong> Introduction and General Theme Discussion</li>
-    <li><strong>Day 2:</strong> Interest-Specific Discussion</li>
-    <li><strong>Day 3:</strong> Synthesis &amp; Closing</li>
-  </ul>
+  <p class="section-subheading">
+    We’ll run the workshop online via Zoom over the week of October 20–25. Sessions are spread out to reduce fatigue; exact dates/times will be set based on participants’ availability.
+  </p>
+
+  <!-- 1) Intro paragraph -->
+  <div class="schedule-intro">
+    <p>
+      We divide into three online sessions across multiple days. Below is the flow, from prep through wrap‑up.
+    </p>
+  </div>
+
+  <!-- 2) Phases grid -->
+  <div class="schedule-phases">
+    <div class="phase">
+      <h3>Before the Workshop</h3>
+      <ul>
+        <li>
+          Welcome email with Discord invite + poll (topics & avail)  
+          <br><small>due Sept 1, 2025</small>
+        </li>
+        <li>
+          Prepare slides (1–2) or 1‑min intro video  
+          <br><small>due Sept 30, 2025</small>
+        </li>
+      </ul>
+    </div>
+    <div class="phase">
+      <h3>During the Workshop</h3>
+      <p>
+        Each session is a 60–90 min small‑group discussion + synthesis. We’ll post summaries to Discord after every session for async follow‑up.
+      </p>
+    </div>
+    <div class="phase">
+      <h3>After the Workshop</h3>
+      <p>
+        All recordings & materials remain on Discord for ongoing discussion. Organizers will draft a white paper and welcome contributors.
+      </p>
+    </div>
+  </div>
+
+  <!-- 3) Sessions table -->
+  <table class="schedule-table" aria-label="Session schedule">
+    <thead>
+      <tr>
+        <th>Session</th>
+        <th>Duration</th>
+        <th>Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Session 1</td>
+        <td>90 min</td>
+        <td>
+          Welcome & introductions, themed group discussions, synthesis
+        </td>
+      </tr>
+      <tr>
+        <td>Session 2</td>
+        <td>90 min</td>
+        <td>
+          Share‑out from Session 1, interest‑based group discussions, synthesis
+        </td>
+      </tr>
+      <tr>
+        <td>Session 3</td>
+        <td>60 min</td>
+        <td>
+          Share‑out from Session 2, identify themes, recommendations, open questions
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </section>
 
 <!-- ORGANIZERS -->

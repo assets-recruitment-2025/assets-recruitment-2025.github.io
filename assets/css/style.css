@@ -364,6 +364,67 @@ img {
   margin-bottom: 2rem;
 }
 
+
+/* —— Schedule Section Enhancements —— */
+
+/* 1) Intro paragraph styling */
+.schedule-intro p {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  color: var(--clr-text-muted);
+}
+
+/* 2) Phases grid (Before / During / After) */
+.schedule-phases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  gap: var(--gap);
+  margin-bottom: 2rem;
+}
+.phase {
+  background: var(--clr-surface);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.phase h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  color: var(--clr-text);
+}
+.phase ul {
+  list-style: disc inside;
+  color: var(--clr-text);
+}
+.phase small {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--clr-text-muted);
+}
+
+/* 3) Sessions table styling */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+.schedule-table th {
+  background: var(--clr-bg);
+  font-weight: 600;
+}
+.schedule-table tbody tr:nth-of-type(odd) {
+  background: rgba(0,0,0,0.02);
+}
+
+
 .organizer {
   text-align: center;
   max-width: 240px;
