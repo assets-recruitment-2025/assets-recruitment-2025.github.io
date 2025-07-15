@@ -416,45 +416,18 @@ img {
 }
 
 
-
-
-/* Place the 4th and 5th organizers under columns 2 & 3 */
-#organizers .organizers-grid > .organizer:nth-child(4) {
-  grid-column-start: 2;
-}
-#organizers .organizers-grid > .organizer:nth-child(5) {
-  grid-column-start: 3;
-}
-
-/* on narrower screens, fallback to two columns */
-@media (max-width: 768px) {
-  #organizers .organizers-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* —— Organizers as 3‑then‑2 flex rows —— */
+/* —— KEEP this flex‑based layout —— */
 #organizers .organizers-grid {
   display: flex;
   flex-wrap: wrap;
-  /* exactly three 450px cards + 2 gaps: */
-  max-width: calc(3 * 450px + 2 * var(--gap));
-  margin: 0 auto;              /* center the whole block */
-  justify-content: center;     /* center each row’s items */
+  --card-width: 240px;
+  max-width: calc(3 * var(--card-width) + 2 * var(--gap));
+  margin: 0 auto;
+  justify-content: center;
   gap: var(--gap);
 }
 
 #organizers .organizer {
-  flex: 0 0 450px;             /* each card is 240px wide */
-  text-align: center;          /* center its text */
-}
-
-
-#organizers {
+  flex: 0 0 var(--card-width);
   text-align: center;
-}
-
-/* target just the affiliation <p> inside each .organizer */
-.organizer p:last-child {
-  white-space: nowrap;
 }
