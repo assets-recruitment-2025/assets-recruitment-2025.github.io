@@ -396,11 +396,11 @@ img {
   font-size: 0.95rem;
 }
 
-/* —— Centered Content Wrapper —— */
-.content-wrapper {
-  max-width: 900px;    /* adjust to taste */
-  margin: 0 auto;      /* center the block */
-  padding: 0 1rem;     /* horizontal gutter on small screens */
+/* A reusable wrapper class */
+.site-container {
+  max-width: var(--site-max);
+  margin: 0 auto;
+  padding: 0 var(--site-gutter);
 }
 
 /* Then individually set each section’s background */
