@@ -6,6 +6,11 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
 
+  <!-- disable client caching -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma"        content="no-cache">
+  <meta http-equiv="Expires"       content="0">
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
