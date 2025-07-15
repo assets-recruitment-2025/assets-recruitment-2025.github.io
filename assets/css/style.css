@@ -94,7 +94,7 @@ img {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--clr-text);
-  color: #c8a106;          /* dark yellow logo text */
+  color: #e9c42d;          /* dark yellow logo text */
 }
 .nav-links {
   display: flex;
