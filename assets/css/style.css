@@ -405,14 +405,22 @@ img {
 
 /* Then individually set each section’s background */
 #participate {
-  background: var(--clr-bg);
+  background:  #EFEFEF;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 #schedule {
-  background: var(--clr-surface);
+  background: #DDDDDD;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 #organizers {
   background: #EFEFEF;           /* custom light gray */
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 #postworkshop {
   background: #DDDDDD;           /* another custom tone */
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
