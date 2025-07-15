@@ -11,7 +11,8 @@ permalink: /
     Join us <time datetime="2025-10-20">Oct 20–26, 2025</time> for the ASSETS 2025 workshop—an interactive deep dive into best practices, challenges, and innovations in recruiting participants for accessibility studies.
   </p>
   <div class="hero-cta">
-    <a class="btn btn-primary" href="#participate">Submit Your Interest</a>
+    <a class="btn btn-primary" href="#participate">Sub
+    mit Your Interest</a>
     <p class="deadline">
       SOI Deadline: <time datetime="2025-08-08">August 8, 2025</time>
     </p>
