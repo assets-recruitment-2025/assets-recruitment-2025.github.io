@@ -54,18 +54,6 @@ permalink: /
   <a class="btn btn-secondary" href="{{ '/organizers/' | relative_url }}">Meet the Team</a>
 </section>
 
-<!-- RESOURCES -->
-<section id="resources" class="section section–dark" aria-labelledby="resources-heading">
-  <h2 id="resources-heading" class="section-heading">Pre-Workshop Resources</h2>
-  <p class="section-subheading">Get up to speed before the workshop</p>
-  <ul>
-    <li><a href="#">McDonnell et al.’23 Guide on Remote Recruitment</a></li>
-    <li><a href="#">Panther on Fraud in Online Studies</a></li>
-    <!-- …other links… -->
-  </ul>
-  <a class="btn btn-secondary" href="{{ '/resources/' | relative_url }}">Browse All</a>
-</section>
-
 <!-- POST-WORKSHOP -->
 <section id="postworkshop" class="section section–dark" aria-labelledby="postworkshop-heading">
   <h2 id="postworkshop-heading" class="section-heading">Post-Workshop</h2>
