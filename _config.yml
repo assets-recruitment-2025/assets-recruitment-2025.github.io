@@ -1,0 +1,16 @@
+#### _config.yml
+```yaml
+title: "ASSETS 2025 Participant Recruitment Workshop"
+description: "GitHub Pages site for ASSETS 2025: Participant Recruitment in Accessibility Research"
+baseurl: "" # no subpath
+url: "https://assets-recruitment-2025.github.io"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+```

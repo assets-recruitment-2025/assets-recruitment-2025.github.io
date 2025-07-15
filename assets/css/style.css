@@ -1,0 +1,30 @@
+#### assets/css/style.css
+```css
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  background: #003366;
+  color: white;
+  padding: 1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 1rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+```  
