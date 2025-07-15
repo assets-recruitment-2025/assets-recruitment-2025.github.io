@@ -1,5 +1,3 @@
-#### _config.yml
-```yaml
 title: "ASSETS 2025 Participant Recruitment Workshop"
 description: "GitHub Pages site for ASSETS 2025: Participant Recruitment in Accessibility Research"
 baseurl: "" # no subpath
@@ -13,4 +11,3 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-```

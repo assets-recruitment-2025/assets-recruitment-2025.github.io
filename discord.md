@@ -1,5 +1,3 @@
-#### discord.md
-```markdown
 ---
 layout: default
 title: Discord
@@ -10,4 +8,3 @@ title: Discord
 Please join our community for asynchronous discussion:
 
 [Invite Link](YOUR_DISCORD_INVITE)
-```  
