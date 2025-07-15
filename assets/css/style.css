@@ -88,6 +88,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #fff; 
 }
 .logo {
   font-size: 1.5rem;
@@ -98,6 +99,7 @@ img {
 .nav-links {
   display: flex;
   gap: var(--gap);
+  color: #fff; 
 }
 .nav-links a {
   color: var(--clr-text);
@@ -105,6 +107,7 @@ img {
   padding: 0.5rem 0.75rem;
   border-radius: var(--radius);
   transition: background 0.2s;
+  color: #fff; 
 }
 .nav-links a:hover,
 .nav-links a:focus {
