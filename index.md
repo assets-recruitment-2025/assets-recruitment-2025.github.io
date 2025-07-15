@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<!-- HERO -->
+<!-- 1) HERO -->
 <section id="hero" class="hero" aria-labelledby="hero-heading">
   <h1 id="hero-heading">Participant Recruitment in Accessibility Research</h1>
   <p>
@@ -18,12 +18,15 @@ permalink: /
   </div>
 </section>
 
+<!-- 2) WRAP ALL OTHER SECTIONS TO BE CENTERED -->
+<div class="content-wrapper">
+
 <!-- CALL FOR PARTICIPATION -->
 <section id="participate" class="section section–light" aria-labelledby="participate-heading">
   <h2 id="participate-heading" class="section-heading">Call for Participation</h2>
   <p class="section-subheading">Submit your Statement of Interest by August 8, 2025</p>
   <p>Opens <time datetime="2025-07-16">July 16</time> → Closes <time datetime="2025-08-08">August 8</time>. We welcome…</p>
-  <a class="btn btn-secondary" href="{{ '/participate/' | relative_url }}">Learn More</a>
+  <a class="btn btn-secondary" href="{{ '/participate/' | relative_url }}">Submit Your Interest</a>
 </section>
 
 <!-- SCHEDULE -->
@@ -35,13 +38,12 @@ permalink: /
     <li><strong>Day 2:</strong> Interest Groups</li>
     <li><strong>Day 3:</strong> Synthesis &amp; Closing</li>
   </ul>
-  <a class="btn btn-secondary" href="{{ '/schedule/' | relative_url }}">Full Schedule</a>
 </section>
 
 <!-- ORGANIZERS -->
 <section id="organizers" class="section section–light" aria-labelledby="organizers-heading">
   <h2 id="organizers-heading" class="section-heading">Workshop Organizers</h2>
-  <p class="section-subheading">Meet our leadership team</p>
+  <p class="section-subheading">Meet our team</p>
 
   <div class="organizers-grid">
     <!-- Row 1 -->
@@ -78,8 +80,6 @@ permalink: /
       <p>DePaul University</p>
     </div>
   </div>
-
-  <a class="btn btn-secondary" href="{{ '/organizers/' | relative_url }}">Meet the Full Team</a>
 </section>
 
 <!-- POST-WORKSHOP -->
@@ -87,5 +87,4 @@ permalink: /
   <h2 id="postworkshop-heading" class="section-heading">Post-Workshop</h2>
   <p class="section-subheading">Proceedings, recordings, and next steps</p>
   <p>Proceedings, recordings, and collaborative white papers will be published here.</p>
-  <a class="btn btn-secondary" href="{{ '/postworkshop/' | relative_url }}">View Outputs</a>
 </section>

@@ -399,3 +399,15 @@ img {
   margin: 0 auto;      /* center the block */
   padding: 0 1rem;     /* horizontal gutter on small screens */
 }
+
+/* —— Auto‑alternate section backgrounds —— */
+.content-wrapper > section {
+  padding: 4rem 2rem;  /* keep your vertical spacing */
+}
+
+.content-wrapper > section:nth-of-type(odd) {
+  background: var(--clr-bg);
+}
+.content-wrapper > section:nth-of-type(even) {
+  background: var(--clr-surface);
+}
