@@ -1,27 +1,109 @@
+/* assets/css/style.css */
+
+/* 1) FONT + COLOR VARIABLES */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --clr-primary: #005a9c;
+  --clr-secondary: #0078d4;
+  --clr-bg: #f9f9f9;
+  --clr-text: #333;
+  --gap: 1.5rem;
+  --radius: 6px;
+}
+
+/* 2) RESET & BASE */
+* { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
+  background: var(--clr-bg);
+  color: var(--clr-text);
   line-height: 1.6;
-  margin: 0;
-  padding: 0;
 }
-header, footer {
-  background: #003366;
-  color: white;
-  padding: 1rem;
+h1,h2,h3 { font-weight: 700; }
+a { text-decoration: none; }
+.sr-only { 
+  position:absolute; width:1px; height:1px; 
+  padding:0; margin:-1px; overflow:hidden; 
+  clip:rect(0,0,0,0); border:0;
 }
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
+
+/* 3) HEADER & NAV */
+.site-header { background: var(--clr-primary); color: #fff; }
+.navbar {
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 1rem 2rem;
 }
-nav a {
-  color: white;
-  text-decoration: none;
+.logo {
+  font-size:1.5rem; font-weight:700; color:#fff;
 }
-main {
-  padding: 1rem;
+.nav-links {
+  list-style:none; display:flex; gap: var(--gap);
 }
-img {
-  max-width: 100%;
-  height: auto;
+.nav-links a { color:#fff; font-weight:600; }
+.nav-toggle {
+  display:none; background:none; border:none; color:#fff; font-size:1.5rem;
+}
+
+/* 4) HERO */
+.hero {
+  text-align:center; padding:4rem 2rem;
+}
+.hero h1 { font-size:2.5rem; margin-bottom:0.5rem; }
+.hero p { max-width:600px; margin:0 auto 2rem; font-size:1.125rem; }
+
+/* 5) BUTTONS */
+.btn {
+  display:inline-block; padding:0.75rem 1.5rem; border-radius:var(--radius);
+  font-weight:600; transition:background 0.3s;
+}
+.btn-primary {
+  background:#fff; color:var(--clr-primary);
+}
+.btn-primary:hover { background:#f0f0f0; }
+.btn-secondary {
+  background:var(--clr-secondary); color:#fff;
+}
+.btn-secondary:hover { background:#005fa1; }
+
+/* 6) FEATURES GRID */
+.features {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  gap: var(--gap);
+  padding:4rem 2rem;
+}
+.feature {
+  background:#fff; padding:2rem; border-radius:var(--radius);
+  box-shadow:0 4px 12px rgba(0,0,0,0.05); text-align:center;
+}
+
+/* 7) CTA SECTION */
+.cta {
+  background:var(--clr-secondary); color:#fff;
+  text-align:center; padding:3rem 2rem;
+}
+.cta p { margin:1rem 0 2rem; }
+
+/* 8) FOOTER */
+.site-footer {
+  background:var(--clr-primary); color:#fff;
+  text-align:center; padding:2rem;
+}
+.social-links { list-style:none; display:flex; justify-content:center; gap:1rem; margin-top:0.5rem; }
+.social-links a { font-size:1.25rem; color:#fff; }
+
+/* 9) RESPONSIVE NAV & TYPO */
+@media (max-width: 768px) {
+  .nav-links { 
+    position: absolute; top: 100%; right:0; 
+    background: var(--clr-primary);
+    flex-direction: column; width:200px;
+    transform: translateX(100%); transition: transform 0.3s;
+  }
+  .nav-links.nav-open { transform: translateX(0); }
+  .nav-toggle { display:block; }
+}
+@media (max-width: 600px) {
+  .hero h1 { font-size:2rem; }
 }
