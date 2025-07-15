@@ -40,18 +40,46 @@ permalink: /
 
 <!-- ORGANIZERS -->
 <section id="organizers" class="section section–light" aria-labelledby="organizers-heading">
-  <h2 id="organizers-heading" class="section-heading">Organizers</h2>
-  <p class="section-subheading">Meet our workshop leadership team</p>
-  <div class="feature">
-    <h3>👤 Khang Dang</h3>
-    <p>PhD Candidate, NJIT</p>
+  <h2 id="organizers-heading" class="section-heading">Workshop Organizers</h2>
+  <p class="section-subheading">Meet our leadership team</p>
+
+  <div class="organizers-grid">
+    <!-- Row 1 -->
+    <div class="organizer">
+      <img src="assets/img/khang.jpg" alt="Photo of Khang Dang">
+      <h3>Khang Dang</h3>
+      <p>PhD Candidate</p>
+      <p>NJIT</p>
+    </div>
+    <div class="organizer">
+      <img src="assets/img/sooyeon.jpg" alt="Photo of Sooyeon Lee">
+      <h3>Sooyeon Lee</h3>
+      <p>Professor</p>
+      <p>Purdue University</p>
+    </div>
+    <div class="organizer">
+      <img src="assets/img/lloyd.jpg" alt="Photo of Lloyd May">
+      <h3>Lloyd May</h3>
+      <p>Research Scientist</p>
+      <p>OpenAI</p>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="organizer">
+      <img src="assets/img/saad.jpg" alt="Photo of Saad Hassan">
+      <h3>Saad Hassan</h3>
+      <p>Accessibility Engineer</p>
+      <p>Microsoft Research</p>
+    </div>
+    <div class="organizer">
+      <img src="assets/img/oliver.jpg" alt="Photo of Oliver Alonzo">
+      <h3>Oliver Alonzo</h3>
+      <p>UX Designer</p>
+      <p>Independent</p>
+    </div>
   </div>
-  <div class="feature">
-    <h3>👤 Sooyeon Lee</h3>
-    <p>Professor, NJIT</p>
-  </div>
-  <!-- ...other organizers... -->
-  <a class="btn btn-secondary" href="{{ '/organizers/' | relative_url }}">Meet the Team</a>
+
+  <a class="btn btn-secondary" href="{{ '/organizers/' | relative_url }}">Meet the Full Team</a>
 </section>
 
 <!-- POST-WORKSHOP -->
