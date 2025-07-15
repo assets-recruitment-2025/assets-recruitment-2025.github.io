@@ -19,6 +19,11 @@
   --radius:        6px;
 }
 
+html {
+  /* make all in‑page jumps leave space for the header */
+  scroll-padding-top: 4rem; /* adjust this to header’s total height */
+}
+
 /* 2) RESET & BASE */
 * {
   margin: 0;
