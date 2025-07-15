@@ -4,13 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 :root {
-  --clr-primary:   #121212; /* page background */
-  --clr-surface:   #1E1E1E; /* cards, nav */
-  --clr-text:      #E0E0E0; /* primary text */
-  --clr-text-muted:#A0A0A0; /* secondary text */
-  --clr-accent:    #BB86FC; /* buttons, links */
-  --clr-secondary: #03DAC6; /* hover, highlights */
+  --clr-primary:   #1C1C1E; /* page background */
+  --clr-surface:   #2C2C2E; /* cards, nav */
+  --clr-text:      #F2F2F7; /* primary text */
+  --clr-text-muted:#8E8E93; /* secondary text */
+  --clr-accent:    #FF9F0A; /* buttons, links */
+  --clr-secondary: #FFCC00; /* hover, highlights */
 }
+
 
 /* 2) RESET & BASE */
 * {
