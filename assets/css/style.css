@@ -21,7 +21,7 @@
 
 html {
   /* make all in‑page jumps leave space for the header */
-  scroll-padding-top: 4.8rem; /* adjust this to header’s total height */
+  scroll-padding-top: 4.5rem; /* adjust this to header’s total height */
 }
 
 /* 2) RESET & BASE */
@@ -78,6 +78,8 @@ img {
   position: sticky;
   top: 0;
   z-index: 100;
+  background: #000;        /* black header */
+  color: #fff;             /* white text */
 }
 .navbar {
   max-width: 1200px;
@@ -91,6 +93,7 @@ img {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--clr-text);
+  color: #c8a106;          /* dark yellow logo text */
 }
 .nav-links {
   display: flex;
