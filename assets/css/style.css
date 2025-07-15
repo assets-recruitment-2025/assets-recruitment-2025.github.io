@@ -279,6 +279,50 @@ img {
     font-size: 1.75rem;
   }
 }
+
+/* 10) HERO FULL‑BLEED BACKGROUND */
+.hero {
+  position: relative;
+  /* break out of wrapper */
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  /* your image here */
+  background-image: url('/assets/img/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* padding for vertical spacing */
+  padding: 6rem 2rem;
+  /* ensure text is readable */
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.hero h1,
+.hero p,
+.hero .btn {
+  color: #fff;
+}
+
+/* Optional: Dark overlay on image for better contrast */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 0;
+}
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+
 /* —— Section Variants & Headings —— */
 .section {
   padding: 4rem 2rem;

@@ -48,34 +48,34 @@ permalink: /
     <div class="organizer">
       <img src="assets/img/lloyd.jpg" alt="Photo of Lloyd May">
       <h3>Lloyd May</h3>
-      <p>Research Scientist</p>
-      <p>OpenAI</p>
+      <p>Ph.D. Candidate</p>
+      <p>Stanford University</p>
     </div>
         <div class="organizer">
       <img src="assets/img/saad.jpg" alt="Photo of Saad Hassan">
       <h3>Saad Hassan</h3>
-      <p>Accessibility Engineer</p>
-      <p>Microsoft Research</p>
+      <p>Faculty Member</p>
+      <p>Tulane University</p>
     </div>
         <div class="organizer">
       <img src="assets/img/khang.jpg" alt="Photo of Khang Dang">
       <h3>Khang Dang</h3>
-      <p>PhD Candidate</p>
-      <p>NJIT</p>
+      <p>Ph.D. Candidate</p>
+      <p>New Jersey Institute of Technology</p>
     </div>
 
     <!-- Row 2 -->
     <div class="organizer">
       <img src="assets/img/sooyeon.jpg" alt="Photo of Sooyeon Lee">
       <h3>Sooyeon Lee</h3>
-      <p>Professor</p>
-      <p>Purdue University</p>
+      <p>Assistant Professor</p>
+      <p>New Jersey Institute of Technology</p>
     </div>
     <div class="organizer">
       <img src="assets/img/oliver.jpg" alt="Photo of Oliver Alonzo">
       <h3>Oliver Alonzo</h3>
-      <p>UX Designer</p>
-      <p>Independent</p>
+      <p>Assistant Professor</p>
+      <p>DePaul University</p>
     </div>
   </div>
 

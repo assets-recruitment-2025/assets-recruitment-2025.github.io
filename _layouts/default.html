@@ -31,9 +31,15 @@
   </header>
 
   <!-- Main content -->
-  <main id="main">
+   {% capture all %}{{ content }}{% endcapture %}
+
+  <!-- Render hero first -->
+    {{ all | split: '<section id="hero"' | first }} <!-- empty -->
+  <section id="hero" class="hero">
+    {{ all | split: '<section id="hero"' | last | split: '</section>' | first | append: '</section>' }}
+
   <div class="content-wrapper">
-      {{ content }}
+   {{ all | replace: all | remove_first: '<section id="hero"' | remove_first: '</section>' }}
   </div>
   </main>
 
