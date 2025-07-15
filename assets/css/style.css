@@ -435,6 +435,14 @@ img {
   text-align: center;         /* center text inside each cell */
 }
 
+/* Place the 4th and 5th organizers under columns 2 & 3 */
+#organizers .organizers-grid > .organizer:nth-child(4) {
+  grid-column-start: 2;
+}
+#organizers .organizers-grid > .organizer:nth-child(5) {
+  grid-column-start: 3;
+}
+
 /* on narrower screens, fallback to two columns */
 @media (max-width: 768px) {
   #organizers .organizers-grid {
