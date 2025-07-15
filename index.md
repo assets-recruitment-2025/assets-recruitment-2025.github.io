@@ -31,7 +31,7 @@ permalink: /
 <p>
     This workshop will bring together members of the ASSETS community to discuss current recruiting practices and identify insights into ethical, rigorous, and inclusive participant recruitment in disability research. We will explore three main topics:
 </p>
-<ul>
+<ul class="section-list">
   <li>Recruitment methods and models</li>
   <li>Eligibility criteria and participant verification</li>
   <li>Ethical and sustainability considerations</li>
