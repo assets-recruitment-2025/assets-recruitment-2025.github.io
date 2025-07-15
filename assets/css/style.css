@@ -274,3 +274,26 @@ img {
     font-size: 1.75rem;
   }
 }
+/* —— Section Variants & Headings —— */
+.section {
+  padding: 4rem 2rem;
+}
+.section–light {
+  background: var(--clr-bg);
+}
+.section–dark {
+  background: var(--clr-surface);
+}
+
+/* Centered section heading + subtitle */
+.section-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.section-subheading {
+  text-align: center;
+  font-style: italic;
+  color: var(--clr-text-muted);
+  margin-bottom: 2rem;
+}

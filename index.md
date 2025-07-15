@@ -19,19 +19,17 @@ permalink: /
 </section>
 
 <!-- CALL FOR PARTICIPATION -->
-<section id="participate" class="features" aria-labelledby="participate-heading">
+<section id="participate" class="section section–light" aria-labelledby="participate-heading">
   <h2 id="participate-heading" class="section-heading">Call for Participation</h2>
-  <p>
-    Opens <time datetime="2025-07-16">July 16</time> → Closes <time datetime="2025-08-08">August 8, 2025</time>.  
-    We welcome anyone with experience recruiting participants for accessibility research.
-  </p>
+  <p class="section-subheading">Submit your Statement of Interest by August 8, 2025</p>
+  <p>Opens <time datetime="2025-07-16">July 16</time> → Closes <time datetime="2025-08-08">August 8</time>. We welcome…</p>
   <a class="btn btn-secondary" href="{{ '/participate/' | relative_url }}">Learn More</a>
 </section>
 
 <!-- SCHEDULE -->
-<section id="schedule" class="features" aria-labelledby="schedule-heading">
+<section id="schedule" class="section section–dark" aria-labelledby="schedule-heading">
   <h2 id="schedule-heading" class="section-heading">Schedule</h2>
-  <!-- You can drop your table or list here, or embed schedule.md content -->
+  <p class="section-subheading">Three interactive sessions across three days</p>
   <ul>
     <li><strong>Day 1:</strong> Theme Discussion</li>
     <li><strong>Day 2:</strong> Interest Groups</li>
@@ -41,9 +39,9 @@ permalink: /
 </section>
 
 <!-- ORGANIZERS -->
-<section id="organizers" class="features" aria-labelledby="organizers-heading">
+<section id="organizers" class="section section–light" aria-labelledby="organizers-heading">
   <h2 id="organizers-heading" class="section-heading">Organizers</h2>
-  <!-- Example grid of photos/names; swap in your actual content -->
+  <p class="section-subheading">Meet our workshop leadership team</p>
   <div class="feature">
     <h3>👤 Khang Dang</h3>
     <p>PhD Candidate, NJIT</p>
@@ -57,8 +55,9 @@ permalink: /
 </section>
 
 <!-- RESOURCES -->
-<section id="resources" class="features" aria-labelledby="resources-heading">
+<section id="resources" class="section section–dark" aria-labelledby="resources-heading">
   <h2 id="resources-heading" class="section-heading">Pre-Workshop Resources</h2>
+  <p class="section-subheading">Get up to speed before the workshop</p>
   <ul>
     <li><a href="#">McDonnell et al.’23 Guide on Remote Recruitment</a></li>
     <li><a href="#">Panther on Fraud in Online Studies</a></li>
@@ -67,16 +66,10 @@ permalink: /
   <a class="btn btn-secondary" href="{{ '/resources/' | relative_url }}">Browse All</a>
 </section>
 
-<!-- DISCORD -->
-<section id="discord" class="features" aria-labelledby="discord-heading">
-  <h2 id="discord-heading" class="section-heading">Join Our Discord</h2>
-  <p>Connect asynchronously: ask questions, share tips, and access live updates.</p>
-  <a class="btn btn-secondary" href="{{ '/discord/' | relative_url }}">Get the Invite</a>
-</section>
-
 <!-- POST-WORKSHOP -->
-<section id="postworkshop" class="features" aria-labelledby="postworkshop-heading">
+<section id="postworkshop" class="section section–dark" aria-labelledby="postworkshop-heading">
   <h2 id="postworkshop-heading" class="section-heading">Post-Workshop</h2>
+  <p class="section-subheading">Proceedings, recordings, and next steps</p>
   <p>Proceedings, recordings, and collaborative white papers will be published here.</p>
   <a class="btn btn-secondary" href="{{ '/postworkshop/' | relative_url }}">View Outputs</a>
 </section>
