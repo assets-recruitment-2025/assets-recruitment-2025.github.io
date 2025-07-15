@@ -458,15 +458,3 @@ img {
 .organizer p:last-child {
   white-space: nowrap;
 }
-
-.organizer-website {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-  color: var(--clr-accent);
-  text-decoration: underline;
-}
-.organizer-website:hover,
-.organizer-website:focus {
-  color: var(--clr-secondary);
-}

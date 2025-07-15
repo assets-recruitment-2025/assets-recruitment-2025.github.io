@@ -64,14 +64,6 @@ permalink: /
       <h3>Khang Dang</h3>
       <p>Ph.D. Candidate</p>
       <p>New Jersey Institute of Technology</p>
-      <p>
-        <a href="https://example.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="organizer-website">
-        Visit my website
-        </a>
-      </p>
     </div>
 
     <!-- Row 2 -->
