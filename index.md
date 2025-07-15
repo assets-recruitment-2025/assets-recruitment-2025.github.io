@@ -21,6 +21,26 @@ permalink: /
 <!-- 2) WRAP ALL OTHER SECTIONS TO BE CENTERED -->
 <div class="content-wrapper">
 
+ <!-- ABOUT -->
+<section id="about" class="section section-light" aria-labelledby="about-heading">
+<h2 id="about-heading" class="section-heading">About</h2>
+<p class="section-subheading">Why this workshop matters</p>
+<p>
+    Including participants with disabilities is crucial for accessibility-focused research. Recruiting from disability communities can present challenges that require careful consideration of ethical practices, intersectional representation, methodological rigor, and community sustainability. Researchers may face tensions between meaningfully including participants with disabilities and addressing concerns such as whether participants adequately represent the diversity of the community, whether certain participants may be overburdened, and how to verify and compensate participants fairly.
+</p>
+<p>
+    This workshop will bring together members of the ASSETS community to discuss current recruiting practices and identify insights into ethical, rigorous, and inclusive participant recruitment in disability research. We will explore three main topics:
+</p>
+<ul>
+    <li>Recruitment methods and models</li>
+    <li>Eligibility criteria and participant verification</li>
+    <li>Ethical and sustainability considerations</li>
+</ul>
+<p>
+    The workshop aims to share current practices, identify key challenges, and develop preliminary guidelines to support accessibility researchers in more sustainable participant recruitment.
+</p>
+</section>
+
 <!-- CALL FOR PARTICIPATION -->
 <section id="participate" class="section section–light" aria-labelledby="participate-heading">
   <h2 id="participate-heading" class="section-heading">Call for Participation</h2>
