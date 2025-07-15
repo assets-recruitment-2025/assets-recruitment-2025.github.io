@@ -59,20 +59,10 @@ img {
   height: auto;
 }
 
-/* Skip-link */
-.skip-link {
-  position: absolute;
-  top: -40px;
-  left: 1rem;
-  background: var(--clr-accent);
-  color: #fff;
-  padding: 0.5rem;
-  border-radius: var(--radius);
-  transition: top 0.3s;
-  z-index: 1000;
-}
-.skip-link:focus {
-  top: 1rem;
+.section-list {
+  list-style-type: decimal;       /* 1., 2., 3. */
+  margin-left: 1.5rem;            /* indent */
+  padding-left: 0;                
 }
 
 /* 3) HEADER & NAV */
