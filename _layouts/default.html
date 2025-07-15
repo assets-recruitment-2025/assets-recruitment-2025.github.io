@@ -4,34 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+  <!-- Skip link for keyboard users -->
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header role="banner">
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-
-    <nav role="navigation" aria-label="Main menu">
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/participate/' | relative_url }}">Participate</a></li>
-        <li><a href="{{ '/organizers/' | relative_url }}">Organizers</a></li>
-        <li><a href="{{ '/schedule/' | relative_url }}">Schedule</a></li>
-        <li><a href="{{ '/resources/' | relative_url }}">Resources</a></li>
-        <li><a href="{{ '/discord/' | relative_url }}">Discord</a></li>
+  <!-- Header with sticky nav -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
+      <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+        <span class="sr-only">Toggle menu</span>☰
+      </button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="{{ '/'             | relative_url }}">Home</a></li>
+        <li><a href="{{ '/participate/'  | relative_url }}">Participate</a></li>
+        <li><a href="{{ '/schedule/'     | relative_url }}">Schedule</a></li>
+        <li><a href="{{ '/organizers/'   | relative_url }}">Organizers</a></li>
+        <li><a href="{{ '/resources/'    | relative_url }}">Resources</a></li>
+        <li><a href="{{ '/discord/'      | relative_url }}">Discord</a></li>
         <li><a href="{{ '/postworkshop/' | relative_url }}">Post-Workshop</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- Main content -->
   <main id="main">
     {{ content }}
   </main>
 
-  <footer role="contentinfo">
-    <p>&copy; 2025 ASSETS 2025 Workshop Organizers</p>
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p>&copy; 2025 {{ site.title }} Organizers</p>
+      <ul class="social-links" aria-label="Social media">
+        <li><a href="#" aria-label="Twitter">🐦</a></li>
+        <li><a href="#" aria-label="LinkedIn">🔗</a></li>
+      </ul>
+    </div>
   </footer>
+
+  <!-- Mobile nav toggle script -->
+  <script>
+    const btn = document.querySelector('.nav-toggle');
+    const nav = document.getElementById('primary-nav');
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      nav.classList.toggle('nav-open');
+    });
+  </script>
 </body>
 </html>
