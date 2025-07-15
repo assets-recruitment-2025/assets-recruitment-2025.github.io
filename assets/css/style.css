@@ -437,15 +437,15 @@ img {
 #organizers .organizers-grid {
   display: flex;
   flex-wrap: wrap;
-  /* exactly three 240px cards + 2 gaps: */
-  max-width: calc(3 * 300px + 2 * var(--gap));
+  /* exactly three 450px cards + 2 gaps: */
+  max-width: calc(3 * 450px + 2 * var(--gap));
   margin: 0 auto;              /* center the whole block */
   justify-content: center;     /* center each row’s items */
   gap: var(--gap);
 }
 
 #organizers .organizer {
-  flex: 0 0 300px;             /* each card is 240px wide */
+  flex: 0 0 450px;             /* each card is 240px wide */
   text-align: center;          /* center its text */
 }
 
@@ -457,4 +457,16 @@ img {
 /* target just the affiliation <p> inside each .organizer */
 .organizer p:last-child {
   white-space: nowrap;
+}
+
+.organizer-website {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--clr-accent);
+  text-decoration: underline;
+}
+.organizer-website:hover,
+.organizer-website:focus {
+  color: var(--clr-secondary);
 }
