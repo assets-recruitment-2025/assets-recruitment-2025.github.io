@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 :root {
+  --site-max: 1200px;    /* header’s max‑width */
+  --site-gutter: 2rem;   /* header’s left/right padding */
+
   /* BACKGROUNDS & SURFACES */
   --clr-bg:        #F2F2F7; /* page background */
   --clr-surface:   #cfcfd0; /* cards, nav, footer */
@@ -398,16 +401,4 @@ img {
   max-width: 900px;    /* adjust to taste */
   margin: 0 auto;      /* center the block */
   padding: 0 1rem;     /* horizontal gutter on small screens */
-}
-
-/* —— Auto‑alternate section backgrounds —— */
-.content-wrapper > section {
-  padding: 4rem 2rem;  /* keep your vertical spacing */
-}
-
-.content-wrapper > section:nth-of-type(odd) {
-  background: var(--clr-bg);
-}
-.content-wrapper > section:nth-of-type(even) {
-  background: var(--clr-surface);
 }
