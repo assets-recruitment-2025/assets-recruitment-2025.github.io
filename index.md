@@ -72,17 +72,13 @@ permalink: /
         <p>
             Participation in the workshop is open to researchers with experience recruiting human participants in at least one disability- or accessibility-related study. Attendees will be selected based on their responses in the Statement of Interest form.
         </p>
-        <p>
-            Please join us! Email questions to: <strong>lloydmay@stanford.edu</strong>
-        </p>
-        <div class="call-grid">
+                <div class="call-grid">
             <!-- Card: Ready to Apply (CTA) -->
             <div class="call-card call-card--cta">
             <div class="call-card-icon">✍️</div>
             <h3>Ready to Apply?</h3>
             <p>
-                Complete the Google Form to share your interest and your accessibility
-                recruiting experiences.
+                Complete the Google Form to share your interest and your accessibility recruiting experiences.
             </p>
             <a
                 class="btn btn-primary"
@@ -92,6 +88,9 @@ permalink: /
             </a>
             </div>
         </div>
+        <p>
+            Please join us! Email questions to: <strong>lloydmay@stanford.edu</strong>
+        </p>
     </div>
 </section>
 
