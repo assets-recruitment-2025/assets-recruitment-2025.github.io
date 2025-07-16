@@ -574,6 +574,7 @@ img {
 }
 .call-intro {
   max-width: 800px;
+  margin: auto auto;
   font-size: 1.05rem;
   color: var(--clr-text-muted);
 }
