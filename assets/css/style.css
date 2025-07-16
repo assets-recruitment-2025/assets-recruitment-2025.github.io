@@ -404,6 +404,10 @@ img {
   color: var(--clr-text-muted);
 }
 
+.schedule-phases .phase ul li {
+  margin-bottom: 1rem;    /* or whatever spacing you prefer */
+}
+
 /* 3) Sessions table styling */
 .schedule-table {
   width: 100%;
