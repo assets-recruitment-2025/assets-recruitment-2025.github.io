@@ -85,7 +85,7 @@ permalink: /
     <strong>Attendee Selection: </strong>Given the size of our team, the limitations of providing an accessible experience in an online format, and the need to ensure manageable group sizes for both combined and breakout discussions, we are aiming for a maximum of <strong>30 participants</strong>. The minimum eligibility criterion for participation in the workshop is <strong>experience recruiting human participants in at least one disability- or accessibility-related research study.</strong>
 </p>
 <p>
-    If we receive more than 30 eligible applications, we will evaluate responses to the three main questions in the Google Form. At least two members of our team will review all form responses against three criteria:
+    If we receive more than 30 eligible applications, we will evaluate responses to the Google Form. At least two members of our team will review all form responses against three criteria:
 </p>
 <ul class="section-list">
   <li>The attendee reflected on how their prior experience aligns with the workshop.</li>
