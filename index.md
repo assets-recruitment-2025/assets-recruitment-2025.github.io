@@ -36,7 +36,6 @@ permalink: /
 <p>
     The workshop aims to share current practices, identify key challenges, and develop preliminary guidelines to support accessibility researchers in more sustainable participant recruitment.
 </p>
-</section>
 
 <!-- CALL FOR PARTICIPATION -->
 <section
@@ -96,7 +95,6 @@ permalink: /
       </a>
     </div>
   </div>
-</section>
 
 
 <!-- SCHEDULE -->
@@ -190,7 +188,6 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       </tr>
     </tbody>
   </table>
-</section>
 
 <!-- ORGANIZERS -->
 <section id="organizers" class="section section–light" aria-labelledby="organizers-heading">
@@ -248,4 +245,3 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       </ul>
     </div>
   </div>
-</section>
