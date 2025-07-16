@@ -499,6 +499,7 @@ img {
 
 /* —— Call for Participation: simplified 3‑card grid —— */
 .call-for-participation {
+  max-width: var(--site-max);
   padding: 4rem 2rem;
   background: var(--clr-bg);
 }
@@ -576,6 +577,7 @@ img {
   margin: 0 auto;
 }
 .call-intro {
+  max-width: var(--site-max);
   margin: auto auto;
   font-size: 1.05rem;
   color: var(--clr-text-muted);
