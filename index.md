@@ -18,10 +18,6 @@ permalink: /
   </div>
 </section>
 
-<!-- 2) WRAP ALL OTHER SECTIONS TO BE CENTERED -->
-<div class="content-wrapper">
-<div class="site-container">
-
  <!-- ABOUT -->
 <section id="about" class="section section-light" aria-labelledby="about-heading">
 <h2 id="about-heading" class="section-heading">About</h2>
