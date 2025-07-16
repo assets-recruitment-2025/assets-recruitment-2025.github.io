@@ -471,11 +471,11 @@ img {
 }
 #schedule {
   padding: 4rem 2rem;
-  background: #DDDDDD;
+  background: #EFEFEF;
 }
 #organizers {
   padding: 4rem 2rem;
-  background: #EFEFEF;          /* custom light gray */
+  background: #DDDDDD;          /* custom light gray */
 }
 
 /* —— KEEP this flex‑based layout —— */
