@@ -122,9 +122,6 @@ permalink: /
   <li>The attendee explained what they will contribute to the workshop.</li>
   <li>The attendee will contribute a diverse perspective to the workshop discussions.</li>
 </ul>
-<p>
-    The workshop aims to share current practices, identify key challenges, and develop preliminary guidelines to support accessibility researchers in more sustainable participant recruitment.
-</p>
 </section>
 
 
