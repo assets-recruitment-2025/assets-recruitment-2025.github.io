@@ -553,7 +553,7 @@ img {
 .call-for-participation .call-card--cta {
   background: var(#cfcfd0);
   text-align: center;
-  max-width: 50
+  max-width: 50px
 }
 .call-for-participation .call-card--cta .call-card-icon {
   font-size: 2.75rem;
