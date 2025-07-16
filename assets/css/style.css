@@ -582,6 +582,31 @@ img {
   color: var(--clr-text-muted);
 }
 
+/* Base card style for *any* .call-card on the page */
+.call-card {
+  background: var(--clr-surface);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.call-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* CTA override when inside #participate */
+#participate .call-card--cta {
+  background: var(--clr-accent);
+  color: #fff;
+  text-align: center;
+}
+
+#participate .call-card--cta .btn {
+  margin-top: 1rem;
+}
+
+
 /* if you want the organizer links a little smaller or inline */
 .organizer-links {
   margin-top: 0.5rem;
