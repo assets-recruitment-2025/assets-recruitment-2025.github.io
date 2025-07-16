@@ -57,12 +57,12 @@ permalink: /
 >
   <h2 id="schedule-heading" class="section-heading">Schedule</h2>
   <p class="section-subheading">
-    Three online sessions over the week of Oct 20–25.
+    Three online sessions over the week of October 20–25, 2025
   </p>
 
 <!-- 1) Intro paragraph -->
 <p>
-We will run the workshop online via Zoom across three sessions (see <strong>Table 1</strong> below) during the week of October 20–25. We will divide it into 3 online sessions spread over multiple days to reduce participant fatigue. The exact dates and times for the sessions will be determined based on selected participants' availability.
+We will run the workshop online via Zoom across three sessions (see <strong>Table 1</strong>) during the week of October 20–25. We will divide it into 3 online sessions spread over multiple days to reduce participant fatigue. The exact dates and times for the sessions will be determined based on selected participants' availability.
 </p>
 
   <!-- 2) Phases grid -->
@@ -71,10 +71,10 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <h3>Before the Workshop</h3>
       <ul>
         <li>
-          A welcome email will include instructions on how to join the workshops’ Discord, and a poll for participants' specific topics of interest (for Session 2) and availability for different options for the 3 sessions, due September 1, 2025.
+          A welcome email will include instructions on how to join the workshops’ Discord, and a poll for participants' specific topics of interest (for Session 2) and availability for different options for the 3 sessions, due <strong>September 1, 2025</strong>.
         </li>
         <li>
-          We will also request that participants prepare 1-2 slides or a 1-minute video introduction by September 30, 2025, which we will share asynchronously before the workshop begins.
+          We will also request that participants prepare 1-2 slides or a 1-minute video introduction by <strong>September 30, 2025</strong>, which we will share asynchronously before the workshop begins.
         </li>
       </ul>
     </div>
