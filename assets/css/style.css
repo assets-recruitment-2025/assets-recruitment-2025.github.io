@@ -500,7 +500,7 @@ img {
 
 /* 1) Full‑width Call section background + padded content */
 #participate {
-  background: var(--clr-surface);
+  background: #EFEFEF;
   padding: 4rem 2rem;
 }
 
