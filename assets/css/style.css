@@ -459,19 +459,23 @@ img {
 
 /* Individually set each section’s background */
 #about {
+  max-width: var(--site-max);
   padding: 4rem 2rem;
   background:  #EFEFEF;
 }
 
 #participate {
+  max-width: var(--site-max);
   background:  #DDDDDD;
 }
 #schedule {
+  max-width: var(--site-max);
   padding: auto;
   background: #EFEFEF;
   margin: 0 auto;
 }
 #organizers {
+  max-width: var(--site-max);
   padding: 4rem 2rem;
   background: #DDDDDD;          /* custom light gray */
   margin: 0 auto;
@@ -561,7 +565,6 @@ img {
   padding: 1.5rem;
   border-radius: var(--radius);
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  max-width: 900px;
   margin: 0 auto;
 }
 .call-for-participation .selection-panel h3 {
