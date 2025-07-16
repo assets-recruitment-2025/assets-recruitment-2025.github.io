@@ -58,17 +58,23 @@ permalink: /
   </div>
 
 <p>
-    <strong>“Nothing about us without us”</strong> emphasizes the importance of including disability communities at every stage of computing accessibility research. However, recruiting participants with disabilities presents a range of challenges, including defining recruitment criteria, verifying eligibility, addressing ethical concerns, sustaining engagement, and navigating the tension between genuine inclusion and avoiding both tokenism and participant over-burdening.
-</p>
-<p>
-    We invite participation from a diverse group of accessibility researchers to share current challenges and practices in participant recruitment and to collaboratively envision the future of inclusive recruitment. We believe this conversation will make a timely and valuable contribution to the field.
+    Our workshop aims to address these critical issues related to participant recruitment by fostering discussion around how to effectively and ethically recruit participants with disabilities for accessibility research studies. We invite participation from a diverse group of accessibility researchers to share current challenges and practices in participant recruitment and to collaboratively envision the future of inclusive recruitment. We believe this conversation will make a timely and valuable contribution to the field.
 </p>
 <p>
     We welcome submissions and participation from researchers across all career stages, disciplines, and geographic regions, with particular encouragement for those from the Global South, non-Western countries, and those whose work addresses the unique needs and contexts of these regions. We recognize that accessibility research has historically centered Western and Global North perspectives, and we seek to amplify a broader range of voices.
 </p>
 <p>
-    <strong>Our workshop is part of the ASSETS’25 conference.</strong> ASSETS is an ACM conference: the Association for Computing Machinery, the world’s largest educational computing society. Attendees do not need to register for the conference to register for the workshop.
+    Our workshop is part of the ASSETS’25 conference. ASSETS is an ACM conference: the Association for Computing Machinery, the world’s largest educational computing society. Attendees do not need to register for the conference to apply for the workshop.
 </p>
+<p>
+    To apply, please complete a Google Form with a <strong>Statement of Interest (SOI)</strong> by <strong>Friday, August 8, 2025</strong>. You will be asked to briefly address the following::
+</p>
+<ul class="section-list">
+  <li>Your experience recruiting participants with disabilities—including which communities you have worked with and your considerations related to the workshop’s three core themes: recruitment methods, eligibility criteria and verification, and ethical/sustainability concerns.</li>
+  <li>Why are you interested in participating in this workshop?</li>
+  <li>Which workshop theme(s) are you most interested in?</li>
+  <li>Any access needs you would like us to accommodate to support your participation.</li>
+</ul>
   <div class="call-grid">
     <!-- Card: Ready to Apply (CTA) -->
     <div class="call-card call-card--cta">
@@ -88,16 +94,8 @@ permalink: /
   </div>
 
 <p>
-    <strong>Attendee Selection: </strong>Given the size of our team, the limitations of providing an accessible experience in an online format, and the need to ensure manageable group sizes for both combined and breakout discussions, we are aiming for a maximum of <strong>30 participants</strong>. The minimum eligibility criterion for participation in the workshop is <strong>experience recruiting human participants in at least one disability- or accessibility-related research study.</strong>
+    Participation in the workshop is open to researchers with experience recruiting human participants in at least one disability- or accessibility-related study. Attendees will be selected based on their responses in the Statement of Interest form.
 </p>
-<p>
-    If we receive more than 30 eligible applications, we will evaluate responses to the Google Form. At least two members of our team will review all form responses against three criteria:
-</p>
-<ul class="section-list">
-  <li>The attendee reflected on how their prior experience aligns with the workshop.</li>
-  <li>The attendee explained what they will contribute to the workshop.</li>
-  <li>The attendee will contribute a diverse perspective to the workshop discussions.</li>
-</ul>
 <p>
     Please join us! Email questions to: <strong>lloydmay@stanford.edu</strong>
 </p>
