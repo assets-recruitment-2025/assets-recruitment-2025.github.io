@@ -8,7 +8,7 @@ permalink: /
 <section id="hero" class="hero" aria-labelledby="hero-heading">
   <h1 id="hero-heading">Participant Recruitment in Accessibility Research</h1>
   <p>
-    Join us <time datetime="2025-10-20">Oct 20–26, 2025</time> for virtual sessions to discuss best practices, challenges, and innovations in recruiting participants for accessibility studies.
+    Join us <time datetime="2025-10-20">Oct 20–26, 2025</time> for virtual sessions to discuss current practices, key challenges, and guidelines in recruiting participants for accessibility studies.
   </p>
   <div class="hero-cta">
     <a class="btn btn-primary" href="#participate">Apply to Attend</a>
@@ -58,7 +58,13 @@ permalink: /
   </div>
 
 <p>
-    <strong>“Nothing about us without us”</strong> calls for including disability communities at every stage of computing accessibility research. Recruiting participants brings challenges around conceptualizing recruiting criteria, verification, ethics and often requires balancing between genuine inclusion and avoiding tokenism with preventing overburdening participants. This virtual workshop will focus on discussing the critical issues related to effectively and ethically recruiting participants with disabilities for accessibility research studies.
+    <strong>“Nothing about us without us”</strong> emphasizes the importance of including disability communities at every stage of computing accessibility research. However, recruiting participants with disabilities presents a range of challenges, including defining recruitment criteria, verifying eligibility, addressing ethical concerns, sustaining engagement, and navigating the tension between genuine inclusion and avoiding both tokenism and participant over-burdening.
+</p>
+<p>
+    We invite participation from a diverse group of accessibility researchers to share current challenges and practices in participant recruitment and to collaboratively envision the future of inclusive recruitment. We believe this conversation will make a timely and valuable contribution to the field.
+</p>
+<p>
+    We welcome submissions and participation from researchers across all career stages, disciplines, and geographic regions, with particular encouragement for those from the Global South, non-Western countries, and those whose work addresses the unique needs and contexts of these regions. We recognize that accessibility research has historically centered Western and Global North perspectives, and we seek to amplify a broader range of voices.
 </p>
 <p>
     <strong>Our workshop is part of the ASSETS’25 conference.</strong> ASSETS is an ACM conference: the Association for Computing Machinery, the world’s largest educational computing society. Although you do not have to register for the full conference to register for the workshop, we encourage you to register and attend the full ASSETS’25 conference!
@@ -67,7 +73,7 @@ permalink: /
     <!-- Card: Ready to Apply (CTA) -->
     <div class="call-card call-card--cta">
       <div class="call-card-icon">✍️</div>
-      <h3>Ready to Register?</h3>
+      <h3>Ready to Apply?</h3>
       <p>
         Complete the Google Form to share your interest and your accessibility
         recruiting experiences.
@@ -92,6 +98,9 @@ permalink: /
   <li>The attendee explained what they will contribute to the workshop.</li>
   <li>The attendee will contribute a diverse perspective to the workshop discussions.</li>
 </ul>
+<p>
+    Please join us! Email questions to: <strong>lloydmay@stanford.edu</strong>
+</p>
 </section>
 
 
