@@ -13,7 +13,7 @@ permalink: /
   <div class="hero-cta">
     <a class="btn btn-primary" href="#participate">Submit Your Interest</a>
     <p class="deadline">
-      SOI Deadline: <time datetime="2025-08-08">August 8, 2025</time>
+      Deadline: <time datetime="2025-08-08">August 8, 2025</time>
     </p>
   </div>
 </section>
@@ -155,7 +155,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <p>Stanford University</p>
     </div>
         <div class="organizer">
-      <img src="assets/img/saad.jpg" alt="Photo of Saad Hassan">
+      <img src="assets/img/saad.jpeg" alt="Photo of Saad Hassan">
       <h3>Saad Hassan</h3>
       <p>Faculty Member</p>
       <p>Tulane University</p>
