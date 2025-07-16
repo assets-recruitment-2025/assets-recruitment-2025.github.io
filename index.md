@@ -57,12 +57,12 @@ permalink: /
 >
   <h2 id="schedule-heading" class="section-heading">Schedule</h2>
   <p class="section-subheading">
-    Three interactive online sessions over the week of Oct 20–25 to balance deep discussion with participant flexibility.
+    Three online sessions over the week of Oct 20–25.
   </p>
 
 <!-- 1) Intro paragraph -->
 <p>
-We will run the workshop online via Zoom across three sessions (see **Table 1** below) during the week of October 20–25. We will divide it into 3 online sessions spread over multiple days to reduce participant fatigue. The exact dates and times for the sessions will be determined based on selected participants' availability.
+We will run the workshop online via Zoom across three sessions (see <strong>Table 1</strong> below) during the week of October 20–25. We will divide it into 3 online sessions spread over multiple days to reduce participant fatigue. The exact dates and times for the sessions will be determined based on selected participants' availability.
 </p>
 
   <!-- 2) Phases grid -->
