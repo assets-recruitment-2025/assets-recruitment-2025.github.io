@@ -538,13 +538,16 @@ img {
 
 /* 6) CTA override specifically inside #participate */
 #participate .call-card--cta {
-  background: var(--clr-accent);
+  background: #cfcfd0;
   max-width: 300px;
   color: #000000;
   text-align: center;
 }
 #participate .call-card--cta .btn {
   margin-top: 1rem;
+}
+#participate .call-card--cta .call-card-icon {
+  font-size: 3rem;  /* play with this value until it’s the size you like */
 }
 
 
