@@ -8,10 +8,10 @@ permalink: /
 <section id="hero" class="hero" aria-labelledby="hero-heading">
   <h1 id="hero-heading">Participant Recruitment in Accessibility Research</h1>
   <p>
-    Join us <time datetime="2025-10-20">Oct 20–26, 2025</time> for virtual sessions to discuss current practices, key challenges, and guidelines in recruiting participants for accessibility studies.
+    Join us during the week of October 20–26, 2025 for virtual sessions to discuss current practices, key challenges, and guidelines in recruiting participants for accessibility studies.
   </p>
   <div class="hero-cta">
-    <a class="btn btn-primary" href="#participate">Apply to Attend</a>
+    <a class="btn btn-primary" href="#participate">Apply to Participate</a>
     <p class="deadline">
       Deadline: <time datetime="2025-08-08">August 8, 2025</time>
     </p>
@@ -24,7 +24,6 @@ permalink: /
  <!-- ABOUT -->
 <section id="about" class="section section-light" aria-labelledby="about-heading">
 <h2 id="about-heading" class="section-heading">About</h2>
-<p class="section-subheading">Why this workshop matters</p>
 <p>
     Including participants with disabilities is crucial for accessibility-focused research. Recruiting from disability communities can present challenges that require careful consideration of ethical practices, intersectional representation, methodological rigor, and community sustainability. Researchers may face tensions between meaningfully including participants with disabilities and addressing concerns such as whether participants adequately represent the diversity of the community, whether certain participants may be overburdened, and how to verify and compensate participants fairly.
 </p>
@@ -52,7 +51,7 @@ permalink: /
       Call for Participation
     </h2>
     <p class="section-subheading">
-      Apply to Attend by
+      Apply to Participate by
       <time datetime="2025-08-08">August 8, 2025</time>
     </p>
   </div>
@@ -75,6 +74,12 @@ permalink: /
   <li>Which workshop theme(s) are you most interested in?</li>
   <li>Any access needs you would like us to accommodate to support your participation.</li>
 </ul>
+<p>
+    Participation in the workshop is open to researchers with experience recruiting human participants in at least one disability- or accessibility-related study. Attendees will be selected based on their responses in the Statement of Interest form.
+</p>
+<p>
+    Please join us! Email questions to: <strong>lloydmay@stanford.edu</strong>
+</p>
   <div class="call-grid">
     <!-- Card: Ready to Apply (CTA) -->
     <div class="call-card call-card--cta">
@@ -88,17 +93,10 @@ permalink: /
         class="btn btn-primary"
         href="{{ '/participate/' | relative_url }}"
       >
-        Apply to Attend
+        Apply to Participate
       </a>
     </div>
   </div>
-
-<p>
-    Participation in the workshop is open to researchers with experience recruiting human participants in at least one disability- or accessibility-related study. Attendees will be selected based on their responses in the Statement of Interest form.
-</p>
-<p>
-    Please join us! Email questions to: <strong>lloydmay@stanford.edu</strong>
-</p>
 </section>
 
 
@@ -110,12 +108,12 @@ permalink: /
 >
   <h2 id="schedule-heading" class="section-heading">Schedule</h2>
   <p class="section-subheading">
-    Three online sessions over the week of October 20–25, 2025
+    Three online sessions during the week of October 20–26, 2025
   </p>
 
 <!-- 1) Intro paragraph -->
 <p>
-We will run the workshop online via Zoom across three sessions (see <strong>Table 1</strong>) during the week of October 20–25. We will divide it into three online sessions spread over multiple days to reduce participant fatigue. The exact dates and times for the sessions will be determined based on selected participants' availability.
+We will run the workshop online via Zoom across three sessions (see <strong>Table 1</strong>) during the week of October 20–26. We will divide it into three online sessions spread over multiple days to reduce participant fatigue. The exact dates and times for the sessions will be determined based on selected participants' availability.
 </p>
 
   <!-- 2) Phases grid -->
