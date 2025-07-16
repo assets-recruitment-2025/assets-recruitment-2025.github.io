@@ -53,7 +53,7 @@ permalink: /
     </h2>
     <p class="section-subheading">
       Submit your Statement of Interest by
-      <time datetime="2025-08-08">Aug 8, 2025</time>
+      <time datetime="2025-08-08">August 8, 2025</time>
     </p>
   </div>
 
