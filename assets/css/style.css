@@ -459,28 +459,20 @@ img {
 
 /* Individually set each section’s background */
 #about {
-  max-width: var(--site-max);
   padding: 4rem 2rem;
   background:  #EFEFEF;
-  margin: 0 auto;
 }
 
 #participate {
-  max-width: var(--site-max);
   background:  #DDDDDD;
-  margin: 0 auto;
 }
 #schedule {
-  max-width: var(--site-max);
   padding: auto;
   background: #EFEFEF;
-  margin: 0 auto;
 }
 #organizers {
-  max-width: var(--site-max);
   padding: 4rem 2rem;
   background: #DDDDDD;          /* custom light gray */
-  margin: 0 auto;
 }
 
 /* —— KEEP this flex‑based layout —— */
