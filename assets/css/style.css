@@ -491,20 +491,15 @@ img {
 /* —— Call for Participation: engaging grid cards —— */
 .call-for-participation {
   background: var(--clr-bg);
+  padding: 2rem 0;
 }
+
 .call-for-participation .call-header {
   text-align: center;
   max-width: 700px;
   margin: 0 auto 2rem;
 }
-.call-for-participation .call-header .section-heading {
-  margin-bottom: 0.25rem;
-}
-.call-for-participation .call-header .section-subheading {
-  color: var(--clr-text-muted);
-}
 
-/* 2×2 card grid */
 .call-for-participation .call-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
@@ -512,53 +507,34 @@ img {
   margin-bottom: 2rem;
 }
 
-/* Base card styling */
 .call-for-participation .call-card {
   background: var(--clr-surface);
   padding: 1.5rem;
   border-radius: var(--radius);
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  position: relative;
   transition: transform 0.2s, box-shadow 0.2s;
 }
+
 .call-for-participation .call-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-/* Card icon */
 .call-for-participation .call-card-icon {
   font-size: 2rem;
   margin-bottom: 0.75rem;
 }
 
-/* CTA card special styling */
 .call-for-participation .call-card--cta {
   text-align: center;
   background: var(--clr-accent);
   color: #fff;
 }
+
 .call-for-participation .call-card--cta .call-card-icon {
   font-size: 2.5rem;
 }
+
 .call-for-participation .call-card--cta .btn {
   margin-top: 1rem;
-}
-
-/* Attendee selection panel */
-.call-for-participation .selection-panel {
-  background: var(--clr-surface);
-  padding: 1.5rem;
-  border-radius: var(--radius);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  max-width: 900px;
-  margin: 0 auto;
-}
-.call-for-participation .selection-panel h3 {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-}
-.call-for-participation .selection-panel ol {
-  margin: 1rem 0;
-  padding-left: 1.25rem;
 }

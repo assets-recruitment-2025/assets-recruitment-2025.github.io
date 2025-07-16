@@ -70,7 +70,7 @@ permalink: /
       <div class="call-card-icon">🎯</div>
       <h3>Focus Areas</h3>
       <ul>
-        <li>Methods & models</li>
+        <li>Recruitment methods & models</li>
         <li>Eligibility & verification</li>
         <li>Ethical sustainability</li>
       </ul>
@@ -81,13 +81,12 @@ permalink: /
       <div class="call-card-icon">📅</div>
       <h3>Logistics</h3>
       <p>
-        3 online sessions via Zoom during Oct 20–25.  
-        Selected via Google Form (your experiences & perspectives).  
-        Must have recruited in ≥1 accessibility study.
+        3 online sessions via Zoom during Oct 20–25. Selected via Google Form (your
+        experiences & perspectives). Must have recruited in ≥1 accessibility study.
       </p>
     </div>
 
-    <!-- Card 4: Apply Now -->
+    <!-- Card 4: Apply Now CTA -->
     <div class="call-card call-card--cta">
       <div class="call-card-icon">✍️</div>
       <h3>Ready to Apply?</h3>
@@ -101,17 +100,15 @@ permalink: /
     </div>
   </div>
 
-  <!-- Attendee selection below (full‑width) -->
+  <!-- Attendee selection panel (unchanged) -->
   <div class="selection-panel">
     <h3>Attendee Selection</h3>
     <p>
       We’re capping at <strong>30 participants</strong>. Minimum eligibility:
-      experience recruiting human participants in a disability‑ or accessibility‑related study.
+      experience recruiting human participants in at least one disability‑ or
+      accessibility‑related study.
     </p>
-    <p>
-      If >30 eligible apply, two reviewers will rate each submission on a 5‑point scale
-      against three criteria:
-    </p>
+    <p>If we receive more than 30 eligible applications, two organizers will rate each on a 5‑point scale against three criteria:</p>
     <ol>
       <li>Alignment of prior experience with our themes</li>
       <li>Clarity on what you’ll contribute</li>
