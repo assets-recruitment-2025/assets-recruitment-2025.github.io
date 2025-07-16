@@ -496,7 +496,7 @@ img {
 
 /* 1) Full‑width Call section background + padded content */
 #participate {
-  background: var(--clr-bg);
+  background: var(--clr-surface);
   padding: 4rem 2rem;
 }
 
@@ -523,7 +523,7 @@ img {
   justify-items: center;
 }
 
-/* 5) Base card style (applies everywhere you use .call-card) */
+/* 5) Base card style */
 .call-card {
   background: var(--clr-surface);
   padding: 1.5rem;
@@ -539,7 +539,8 @@ img {
 /* 6) CTA override specifically inside #participate */
 #participate .call-card--cta {
   background: var(--clr-accent);
-  color: #fff;
+  max-width: 300px;
+  color: #000000;
   text-align: center;
 }
 #participate .call-card--cta .btn {
