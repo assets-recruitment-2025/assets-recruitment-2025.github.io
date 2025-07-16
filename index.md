@@ -23,7 +23,7 @@ permalink: /
 <div class="site-container">
 <h2 id="about-heading" class="section-heading">About</h2>
 <p>
-    Including participants with disabilities is crucial for accessibility-focused research. Recruiting from disability communities can present challenges that require careful consideration of ethical practices, intersectional representation, methodological rigor, and community sustainability. Researchers may face tensions between meaningfully including participants with disabilities and addressing concerns such as whether participants adequately represent the diversity of the community, whether certain participants may be overburdened, and how to verify and compensate participants fairly.
+    <strong>“Nothing about us without us”</strong> emphasizes the importance of including disability communities at every stage of computing accessibility research. However, recruiting participants with disabilities presents a range of challenges—including defining recruitment criteria, verifying eligibility, addressing ethical concerns, sustaining engagement, and navigating the tension between genuine inclusion and avoiding both tokenism and participant over-burdening.
 </p>
 <p>
     This workshop will bring together members of the ASSETS community to discuss current recruiting practices and identify insights into ethical, rigorous, and inclusive participant recruitment in disability research. We will explore three main topics:
