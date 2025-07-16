@@ -76,7 +76,7 @@ permalink: /
         class="btn btn-primary"
         href="{{ '/participate/' | relative_url }}"
       >
-        Apply Now
+        Submit Your Interest
       </a>
     </div>
   </div>
