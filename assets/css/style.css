@@ -457,27 +457,19 @@ img {
   padding: 0 var(--site-gutter);
 }
 
-/* Then individually set each section’s background */
+/* Individually set each section’s background */
 #about {
   background:  #EFEFEF;
-  padding-left: 25rem;
-  padding-right: 25rem;
 }
 
 #participate {
   background:  #DDDDDD;
-  padding-left: 25rem;
-  padding-right: 25rem;
 }
 #schedule {
   background: #EFEFEF;
-  padding-left: 25rem;
-  padding-right: 25rem;
 }
 #organizers {
   background: #DDDDDD;          /* custom light gray */
-  padding-left: 25rem;
-  padding-right: 25rem;
 }
 
 /* —— KEEP this flex‑based layout —— */
