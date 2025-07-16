@@ -52,7 +52,7 @@ permalink: /
             </p>
     </div>
         <p>
-            Our workshop aims to address these critical issues related to participant recruitment by fostering discussion around how to effectively and ethically recruit participants with disabilities for accessibility research studies. We invite participation from a diverse group of accessibility researchers to share current challenges and practices in participant recruitment and to collaboratively envision the future of inclusive recruitment. We believe this conversation will make a timely and valuable contribution to the field.
+            Our workshop aims to address critical issues related to participant recruitment by fostering discussion around how to effectively and ethically recruit participants with disabilities for accessibility research studies. We invite participation from a diverse group of accessibility researchers to share current challenges and practices in participant recruitment and to collaboratively envision the future of inclusive recruitment. We believe this conversation will make a timely and valuable contribution to the field.
         </p>
         <p>
             We welcome submissions and participation from researchers across all career stages, disciplines, and geographic regions, with particular encouragement for those from the Global South, non-Western countries, and those whose work addresses the unique needs and contexts of these regions. We recognize that accessibility research has historically centered Western and Global North perspectives, and we seek to amplify a broader range of voices.
@@ -198,50 +198,86 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
   <div class="organizers-grid">
     <!-- Row 1 -->
     <div class="organizer">
-      <img src="assets/img/lloyd.jpg" alt="Photo of Lloyd May">
+    <img src="assets/img/lloyd.jpg" alt="Headshot of Lloyd May">
       <h3>Lloyd May</h3>
       <p>Ph.D. Candidate</p>
       <p>Stanford University</p>
-      <ul class="social-links organizer-links" aria-label="Lloyd May links">
-        <li><a href="https://www.lloydmay.net/" target="_blank" rel="noopener">🔗</a></li>
-      </ul>
+    <ul class="social-links organizer-links" aria-label="Lloyd May's website">
+        <li>
+        <a
+            href="https://www.lloydmay.net/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Lloyd May's website"
+        >🔗</a>
+        </li>
+    </ul>
     </div>
-        <div class="organizer">
-      <img src="assets/img/saad.jpeg" alt="Photo of Saad Hassan">
+    <div class="organizer">
+    <img src="assets/img/saad.jpeg" alt="Headshot of Saad Hassan">
       <h3>Saad Hassan</h3>
       <p>Faculty Member</p>
       <p>Tulane University</p>
-      <ul class="social-links organizer-links" aria-label="Saad Hassan links">
-        <li><a href="https://saadh.info/" target="_blank" rel="noopener">🔗</a></li>
-      </ul>
+    <ul class="social-links organizer-links" aria-label="Saad Hassan's website">
+        <li>
+        <a
+            href="https://saadh.info/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Saad Hassan's website"
+        >🔗</a>
+        </li>
+    </ul>
     </div>
-        <div class="organizer">
-      <img src="assets/img/khang.png" alt="Photo of Khang Dang">
+    <div class="organizer">
+    <img src="assets/img/khang.png" alt="Headshot of Khang Dang">
       <h3>Khang Dang</h3>
       <p>Ph.D. Candidate</p>
       <p>New&nbsp;Jersey&nbsp;Institute&nbsp;of&nbsp;Technology</p>
-      <ul class="social-links organizer-links" aria-label="Khang Dang links">
-        <li><a href="https://www.khang4dang.net/" target="_blank" rel="noopener">🔗</a></li>
-      </ul>
+    <ul class="social-links organizer-links" aria-label="Khang Dang's website">
+        <li>
+        <a
+            href="https://www.khang4dang.net/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Khang Dang's website"
+        >🔗</a>
+        </li>
+    </ul>
     </div>
 
     <!-- Row 2 -->
     <div class="organizer">
-      <img src="assets/img/sooyeon.jpg" alt="Photo of Sooyeon Lee">
-      <h3>Sooyeon Lee</h3>
-      <p>Assistant Professor</p>
-      <p>New&nbsp;Jersey&nbsp;Institute&nbsp;of&nbsp;Technology</p>
-      <ul class="social-links organizer-links" aria-label="Sooyeon Lee links">
-        <li><a href="https://people.njit.edu/profile/sl287" target="_blank" rel="noopener">🔗</a></li>
-      </ul>
+    <img src="assets/img/sooyeon.jpg" alt="Headshot of Sooyeon Lee">
+    <h3>Sooyeon Lee</h3>
+    <p>Assistant Professor</p>
+    <p>New&nbsp;Jersey&nbsp;Institute&nbsp;of&nbsp;Technology</p>
+    <ul class="social-links organizer-links" aria-label="Sooyeon Lee's website">
+        <li>
+        <a
+            href="https://people.njit.edu/profile/sl287"
+            target="_blank"
+            rel="noopener"
+            aria-label="Sooyeon Lee's website"
+        >🔗</a>
+        </li>
+    </ul>
     </div>
+
     <div class="organizer">
-      <img src="assets/img/oliver.jpg" alt="Photo of Oliver Alonzo">
-      <h3>Oliver Alonzo</h3>
-      <p>Assistant Professor</p>
-      <p>DePaul University</p>
-      <ul class="social-links organizer-links" aria-label="Oliver Alonzo links">
-        <li><a href="https://oliveralonzo.com/" target="_blank" rel="noopener">🔗</a></li>
-      </ul>
+    <img src="assets/img/oliver.jpg" alt="Headshot of Oliver Alonzo">
+    <h3>Oliver Alonzo</h3>
+    <p>Assistant Professor</p>
+    <p>DePaul University</p>
+    <ul class="social-links organizer-links" aria-label="Oliver Alonzo's website">
+        <li>
+        <a
+            href="https://oliveralonzo.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Oliver Alonzo's website"
+        >🔗</a>
+        </li>
+    </ul>
     </div>
   </div>
