@@ -20,6 +20,7 @@ permalink: /
 
  <!-- ABOUT -->
 <section id="about" class="section section-light" aria-labelledby="about-heading">
+<div class="site-container">
 <h2 id="about-heading" class="section-heading">About</h2>
 <p>
     Including participants with disabilities is crucial for accessibility-focused research. Recruiting from disability communities can present challenges that require careful consideration of ethical practices, intersectional representation, methodological rigor, and community sustainability. Researchers may face tensions between meaningfully including participants with disabilities and addressing concerns such as whether participants adequately represent the diversity of the community, whether certain participants may be overburdened, and how to verify and compensate participants fairly.
@@ -43,6 +44,7 @@ permalink: /
   class="section section-light call-for-participation"
   aria-labelledby="participate-heading"
 >
+<div class="site-container">
   <div class="call-header">
     <h2 id="participate-heading" class="section-heading">
       Call for Participation
@@ -103,6 +105,7 @@ permalink: /
   class="section section-dark"
   aria-labelledby="schedule-heading"
 >
+<div class="site-container">
   <h2 id="schedule-heading" class="section-heading">Schedule</h2>
   <p class="section-subheading">
     Three online sessions during the week of October 20–26, 2025
@@ -191,6 +194,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
 
 <!-- ORGANIZERS -->
 <section id="organizers" class="section section–light" aria-labelledby="organizers-heading">
+<div class="site-container">
   <h2 id="organizers-heading" class="section-heading">Workshop Organizers</h2>
   <p class="section-subheading">Meet our team</p>
 
