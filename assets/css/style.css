@@ -1,37 +1,36 @@
-/* 1) FONT + COLOR VARIABLES */
+/* ──────────────────────────────────────────────────────────
+   1) VARIABLES
+────────────────────────────────────────────────────────── */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 :root {
-  --site-max: 1200px;    /* header’s max‑width */
-  --site-gutter: 2rem;   /* header’s left/right padding */
+  /* Layout scale */
+  --site-max:    1200px;
+  --site-gutter: 2rem;
 
-  /* BACKGROUNDS & SURFACES */
-  --clr-bg:        #fff; /* page background */
-  --clr-surface:   #cfcfd0; /* cards, nav, footer */
+  /* Color palette */
+  --clr-bg:         #fff;      /* page background */
+  --clr-surface:    #cfcfd0;   /* cards, sections */
+  --clr-text:       #1C1C1E;   /* primary text */
+  --clr-text-muted: #2C2C2E;   /* secondary text */
+  --clr-accent:     #FF9F0A;   /* primary buttons/links */
+  --clr-secondary:  #dcb003;   /* secondary buttons/hover */
 
-  /* TEXT */
-  --clr-text:      #1C1C1E; /* primary text */
-  --clr-text-muted:#2C2C2E; /* secondary text */
-
-  /* ACCENTS */
-  --clr-accent:    #FF9F0A; /* primary buttons/links */
-  --clr-secondary: #dcb003; /* secondary buttons/hover/highlights */
-
-  /* LAYOUT */
-  --gap:           1.5rem;
-  --radius:        6px;
+  /* Spacing & shapes */
+  --gap:    1.5rem;
+  --radius: 6px;
 }
 
-html {
-  /* make all in‑page jumps leave space for the header */
-  scroll-padding-top: 4.5rem; /* adjust this to header’s total height */
-}
-
-/* 2) RESET & BASE */
-* {
+/* ──────────────────────────────────────────────────────────
+   2) RESET & BASE
+────────────────────────────────────────────────────────── */
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  scroll-padding-top: 4.5rem; /* header height */
 }
 body {
   font-family: 'Inter', sans-serif;
@@ -47,23 +46,38 @@ h1, h2, h3 {
 p {
   margin-bottom: 1rem;
 }
+ul {
+  list-style: none;
+}
 a {
   text-decoration: none;
   color: inherit;
-}
-ul {
-  list-style: none;
 }
 img {
   max-width: 100%;
   height: auto;
 }
 
+/* ──────────────────────────────────────────────────────────
+   3) UTILITIES
+────────────────────────────────────────────────────────── */
+/* Constrain content width and gutters */
+.site-container {
+  max-width: var(--site-max);
+  margin: 0 auto;
+  padding: 0 var(--site-gutter);
+}
+/* Full‑bleed background hack */
+.full-bleed {
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+}
+/* Numbered list helper */
 .section-list {
   counter-reset: item;
-  list-style: none;
-  margin-left: 3;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 .section-list li {
   counter-increment: item;
@@ -77,95 +91,81 @@ img {
   left: 0;
   font-weight: 600;
 }
+/* Simple gap utility */
+.gap { margin-bottom: var(--gap); }
 
-/* 3) HEADER & NAV */
+/* ──────────────────────────────────────────────────────────
+   4) HEADER & NAV
+────────────────────────────────────────────────────────── */
 .site-header {
-  background: var(--clr-surface);
   position: sticky;
   top: 0;
   z-index: 100;
   background: #000;
-  color: #fff;         
+  color: #fff;
 }
 .navbar {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff; 
+  max-width: var(--site-max);
+  margin: 0 auto;
+  padding: 1rem var(--site-gutter);
 }
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--clr-text);
-  color: #e9c42d;          /* dark yellow logo text */
+  color: #e9c42d;
 }
 .nav-links {
   display: flex;
   gap: var(--gap);
-  color: #fff; 
 }
 .nav-links a {
-  color: var(--clr-text);
-  font-weight: 600;
-  padding: 0.5rem 0.75rem;
+  padding: .5rem .75rem;
   border-radius: var(--radius);
-  transition: background 0.2s;
-  color: #fff; 
+  font-weight: 600;
+  transition: background .2s;
 }
 .nav-links a:hover,
 .nav-links a:focus {
-  background: rgba(255,255,255,0.15);
+  background: rgba(255,255,255,.15);
 }
 .nav-toggle {
   display: none;
   background: none;
   border: none;
-  color: var(--clr-text);
   font-size: 1.5rem;
+  color: var(--clr-text);
   cursor: pointer;
 }
-
-/* 4) HERO */
-.hero {
-  text-align: center;
-  padding: 4rem 2rem;
-  background: var(--clr-surface);
-
-  /* make all text inside white by default */
-  color: #fff;
+@media (max-width: 768px) {
+  .nav-toggle { display: block; }
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--clr-surface);
+    flex-direction: column;
+    width: 200px;
+    transform: translateX(100%);
+    transition: transform .3s;
+    padding: 1rem;
+  }
+  .nav-links.nav-open {
+    transform: translateX(0);
+  }
 }
 
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-.hero p {
-  max-width: 600px;
-  margin: 0 auto 2rem;
-  font-size: 1.125rem;
-  color: var(--clr-text-muted);
-}
-.hero-cta {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.75rem;
-}
-.deadline {
-  color: var(--clr-text-muted);
-  font-size: 0.95rem;
-}
-
-/* 5) BUTTONS */
+/* ──────────────────────────────────────────────────────────
+   5) BUTTONS
+────────────────────────────────────────────────────────── */
 .btn {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  border-radius: var(--radius);
   font-weight: 600;
-  transition: background 0.3s, color 0.3s;
+  padding: .75rem 1.5rem;
+  border-radius: var(--radius);
+  transition: background .3s, color .3s;
 }
 .btn-primary {
   background: var(--clr-accent);
@@ -184,179 +184,73 @@ img {
   background: #e6b800;
 }
 
-/* 6) FEATURES GRID */
-.features {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
-  gap: var(--gap);
-  padding: 4rem 2rem;
-}
-.section-heading {
-  text-align: left;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: var(--clr-text);
-}
-.feature {
-  background: var(--clr-surface);
-  padding: 2rem;
-  border-radius: var(--radius);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  text-align: center;
-}
-.feature h3 {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-}
-.feature p {
-  margin-bottom: 1.5rem;
-  color: var(--clr-text-muted);
-}
-
-/* 7) CTA SECTION */
-.cta {
-  background: var(--clr-secondary);
-  color: #fff;
-  text-align: center;
-  padding: 3rem 2rem;
-}
-.cta h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-.cta p {
-  margin-bottom: 2rem;
-  font-size: 1.125rem;
-  color: rgba(255,255,255,0.9);
-}
-
-/* 8) FOOTER */
-.site-footer {
-  background: var(--clr-surface);
-  color: var(--clr-text);
-  text-align: center;
-  padding: 2rem;
-}
-.footer-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-.social-links {
-  display: flex;
-  gap: 1rem;
-}
-.social-links a {
-  font-size: 1.5rem;
-  color: var(--clr-text);
-  transition: color 0.2s;
-}
-.social-links a:hover,
-.social-links a:focus {
-  color: var(--clr-accent);
-}
-
-/* 9) RESPONSIVE NAV & TYPO */
-@media (max-width: 768px) {
-  .nav-toggle {
-    display: block;
-  }
-  .nav-links {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background: var(--clr-surface);
-    flex-direction: column;
-    width: 200px;
-    transform: translateX(100%);
-    transition: transform 0.3s ease;
-    padding: 1rem;
-  }
-  .nav-links.nav-open {
-    transform: translateX(0);
-  }
-  .features {
-    padding: 3rem 1rem;
-  }
-  .cta {
-    padding: 2rem 1rem;
-  }
-}
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
-  .section-heading {
-    font-size: 1.75rem;
-  }
-}
-
-/* 10) HERO FULL‑BLEED BACKGROUND */
+/* ──────────────────────────────────────────────────────────
+   6) HERO
+────────────────────────────────────────────────────────── */
 .hero {
-  position: relative;
-  /* break out of wrapper */
+  /* full‑bleed + background */
   left: 50%;
-  right: 50%;
   width: 100vw;
   margin-left: -50vw;
-  margin-right: -50vw;
-
-  /* your image here */
-  background-image: url('/assets/img/hero-bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  /* padding for vertical spacing */
+  background: var(--clr-surface) url('/assets/img/hero-bg.png') center/cover no-repeat;
+  position: relative;
   padding: 6rem 2rem;
-  /* ensure text is readable */
   color: #fff;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  text-align: center;
+  text-shadow: 0 2px 6px rgba(0,0,0,.6);
 }
-
-.hero h1,
-.hero p,
-.hero .btn {
-  color: #fff;
-}
-
-/* Optional: Dark overlay on image for better contrast */
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,.4);
   z-index: 0;
 }
 .hero > * {
   position: relative;
   z-index: 1;
 }
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+}
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.125rem;
+  color: var(--clr-text-muted);
+}
+.hero-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .75rem;
+}
+.deadline {
+  font-size: .95rem;
+  color: var(--clr-text-muted);
+}
 
-
-/* —— Section Variants & Headings —— */
+/* ──────────────────────────────────────────────────────────
+   7) SECTION BASE + VARIANTS
+────────────────────────────────────────────────────────── */
 .section {
+  /* full‑bleed backgrounds too */
+  left: 50%;
+  width: 100vw;
+  margin-left: -50vw;
   padding: 4rem 2rem;
 }
-.section-light {
-  background: var(--clr-bg);
-}
-.section-dark {
-  background: var(--clr-surface);
-}
+.section-light { background: var(--clr-bg); }
+.section-dark  { background: var(--clr-surface); }
 
-/* Centered section heading + subtitle */
-.section-heading {
+/* center headings/subtitles inside each section */
+.section .site-container .section-heading {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
 }
-.section-subheading {
+.section .site-container .section-subheading {
   display: block;
   text-align: center;
   font-style: italic;
@@ -364,18 +258,51 @@ img {
   margin-bottom: 2rem;
 }
 
+/* ──────────────────────────────────────────────────────────
+   8) ABOUT (no extra styles; uses .section + .site-container)
+────────────────────────────────────────────────────────── */
 
-/* —— Schedule Section Enhancements —— */
-
-/* 1) Intro paragraph styling */
-.schedule-intro p {
-  max-width: 800px;
-  margin: 0 auto 2rem;
-  font-size: 1.1rem;
-  color: var(--clr-text-muted);
+/* ──────────────────────────────────────────────────────────
+   9) CALL FOR PARTICIPATION
+────────────────────────────────────────────────────────── */
+.call-for-participation .call-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.call-for-participation .call-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: var(--gap);
+  justify-items: center;
+  margin-bottom: 2rem;
+}
+/* CTA card */
+.call-card--cta {
+  background: var(--clr-accent);
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,.05);
+  transition: transform .2s, box-shadow .2s;
+  text-align: center;
+}
+.call-card--cta:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.1);
+}
+.call-card-icon {
+  font-size: 2.75rem;
+  margin-bottom: .75rem;
+  display: inline-block;
+}
+/* attendee selection list */
+.call-for-participation .section-list {
+  margin-top: 1rem;
 }
 
-/* 2) Phases grid (Before / During / After) */
+/* ──────────────────────────────────────────────────────────
+ 10) SCHEDULE
+────────────────────────────────────────────────────────── */
 .schedule-phases {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
@@ -386,25 +313,16 @@ img {
   background: var(--clr-surface);
   padding: 1.5rem;
   border-radius: var(--radius);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,.05);
 }
 .phase h3 {
   margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: .75rem;
   font-size: 1.25rem;
-  color: var(--clr-text);
 }
 .phase ul {
   list-style: disc inside;
-  color: var(--clr-text);
 }
-.phase small {
-  display: block;
-  margin-top: 0.25rem;
-  color: var(--clr-text-muted);
-}
-
-/* 3) Sessions table styling */
 .schedule-table {
   width: 100%;
   border-collapse: collapse;
@@ -412,177 +330,46 @@ img {
 }
 .schedule-table th,
 .schedule-table td {
-  border: 1px solid rgba(0,0,0,0.1);
-  padding: 0.75rem 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: .75rem 1rem;
   text-align: left;
 }
 .schedule-table th {
-  background: var(#cfcfd0);
+  background: var(--clr-bg);
   font-weight: 600;
 }
 .schedule-table tbody tr:nth-of-type(odd) {
-  background: rgba(0,0,0,0.02);
+  background: rgba(0,0,0,.02);
 }
 
-
+/* ──────────────────────────────────────────────────────────
+ 11) ORGANIZERS
+────────────────────────────────────────────────────────── */
+.organizers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  max-width: calc(3 * 300px + 2 * var(--gap));
+  margin: 0 auto;
+}
 .organizer {
+  flex: 0 0 300px;
   text-align: center;
-  max-width: 240px;
 }
-
 .organizer img {
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid var(--clr-secondary);
+  margin-bottom: .75rem;
 }
 
-.organizer h3 {
-  margin: 0.75rem 0 0.25rem;
-  font-size: 1.25rem;
-  color: var(--clr-text);
-}
-
-.organizer p {
-  margin: 0.25rem 0;
-  color: var(--clr-text-muted);
-  font-size: 0.95rem;
-}
-
-/* A reusable wrapper class */
-.site-container {
-  max-width: var(--site-max);
-  margin: 0 auto;
-  padding: 0 var(--site-gutter);
-}
-
-/* Individually set each section’s background */
-#about {
-  max-width: var(--site-max);
-  padding: 4rem 2rem;
-  background:  #EFEFEF;
-  margin: 0 auto;
-}
-
-#participate {
-  max-width: var(--site-max);
-  background:  #DDDDDD;
-  margin: 0 auto;
-}
-#schedule {
-  max-width: var(--site-max);
-  padding: auto;
-  background: #EFEFEF;
-  margin: 0 auto;
-}
-#organizers {
-  max-width: var(--site-max);
-  padding: 4rem 2rem;
-  background: #DDDDDD;          /* custom light gray */
-  margin: 0 auto;
-}
-
-/* —— KEEP this flex‑based layout —— */
-#organizers .organizers-grid {
-  display: flex;
-  flex-wrap: wrap;
-  --card-width: 350px;
-  max-width: calc(3 * var(--card-width) + 2 * var(--gap));
-  margin: 0 auto;
-  justify-content: center;
-  gap: 4rem;
-}
-
-#organizers .organizer {
-  flex: 0 0 var(--card-width);
-  text-align: center;
-}
-
-/* —— Call for Participation: simplified 3‑card grid —— */
-.call-for-participation {
-  max-width: var(--site-max);
-  padding: 4rem 2rem;
-  background: var(--clr-bg);
-}
-
-/* then constrain the inner grid & panel just like your .content-wrapper does */
-.call-for-participation .call-grid,
-.call-for-participation .selection-panel {
-  max-width: var(--site-max);
-  margin: 0 auto;
-  padding: 0 var(--site-gutter);
-}
-
-/* Center header text under section */
-.call-for-participation .call-header {
-  text-align: center;
-  max-width: 700px;
-  margin: 0 auto 2rem;
-}
-
-/* 3‑column grid, falls to 1‑col on narrow screens */
-.call-for-participation .call-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
-  gap: var(--gap);
-  margin-bottom: 2rem;
-  justify-items: center;
-}
-
-/* Base card styling */
-.call-for-participation .call-card {
-  background: var(--clr-surface);
-  padding: 1.5rem;
-  border-radius: var(--radius);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-.call-for-participation .call-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
-/* Icon above each card */
-.call-for-participation .call-card-icon {
-  font-size: 2.25rem;
-  margin-bottom: 0.75rem;
-  display: inline-block;
-}
-
-/* CTA card overrides */
-.call-for-participation .call-card--cta {
-  background: var(#cfcfd0);
-  max-width: 300px;
-  text-align: center;
-  justify-content: center;
-}
-.call-for-participation .call-card--cta .call-card-icon {
-  font-size: 2.75rem;
-}
-.call-for-participation .call-card--cta .btn {
-  margin-top: 1rem;
-}
-
-/* Attendee selection panel (full‑width but constrained) */
-.call-for-participation .selection-panel {
-  background: var(--clr-surface);
-  padding: 1.5rem;
-  border-radius: var(--radius);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  margin: 0 auto;
-}
-.call-for-participation .selection-panel h3 {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-}
-.call-for-participation .selection-panel ol {
-  padding-left: 1.25rem;
-  margin: 0 auto;
-}
-.call-intro {
-  max-width: var(--site-max);
-  margin: auto auto;
-  font-size: 1.05rem;
-  color: var(--clr-text-muted);
+/* ──────────────────────────────────────────────────────────
+ 12) MEDIA QUERIES
+────────────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .site-container { padding: 0 1rem; }
+  .hero h1 { font-size: 2rem; }
+  .section .site-container .section-heading { font-size: 1.75rem; }
 }
