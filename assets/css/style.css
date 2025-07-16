@@ -527,6 +527,7 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
   gap: var(--gap);
   margin-bottom: 2rem;
+  justify-items: center;
 }
 
 /* Base card styling */
