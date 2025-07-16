@@ -490,8 +490,16 @@ img {
 
 /* —— Call for Participation: simplified 3‑card grid —— */
 .call-for-participation {
-  padding: 3rem 0;
+  padding: 4rem 2rem;
   background: var(--clr-bg);
+}
+
+/* then constrain the inner grid & panel just like your .content-wrapper does */
+.call-for-participation .call-grid,
+.call-for-participation .selection-panel {
+  max-width: var(--site-max);
+  margin: 0 auto;
+  padding: 0 var(--site-gutter);
 }
 
 /* Center header text under section */
