@@ -571,3 +571,9 @@ img {
   padding-left: 1.25rem;
   margin: 1rem 0;
 }
+.call-intro {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+  color: var(--clr-text-muted);
+}
