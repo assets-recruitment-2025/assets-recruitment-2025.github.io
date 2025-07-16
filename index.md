@@ -57,22 +57,14 @@ permalink: /
     </p>
   </div>
 
-<!-- workshop-at-conference intro -->
-  <div class="call-intro">
-    <p>
-      <strong>Our workshop is part of the ASSETS’25 conference.</strong>
-      You do not have to register for the full conference to attend the workshop.
-      ASSETS is an ACM conference: the Association for Computing Machinery, the
-      world’s largest educational computing society.
-    </p>
-    <p>
-      We also encourage you to register and attend the full ASSETS’25
-      conference!
-    </p>
-  </div>
-
+<p>
+    <strong>“Nothing about us without us”</strong> calls for including disability communities at every stage of computing accessibility research. Recruiting participants brings challenges around conceptualizing recruiting criteria, verification, ethics and often requires balancing between genuine inclusion and avoiding tokenism with preventing overburdening participants. This virtual workshop will focus on discussing the critical issues related to effectively and ethically recruiting participants with disabilities for accessibility research studies.
+</p>
+<p>
+    <strong>Our workshop is part of the ASSETS’25 conference.</strong> ASSETS is an ACM conference: the Association for Computing Machinery, the world’s largest educational computing society. Although you do not have to register for the full conference to register for the workshop, we encourage you to register and attend the full ASSETS’25 conference!
+</p>
   <div class="call-grid">
-    <!-- Card 3: Ready to Apply (CTA) -->
+    <!-- Card: Ready to Apply (CTA) -->
     <div class="call-card call-card--cta">
       <div class="call-card-icon">✍️</div>
       <h3>Ready to Apply?</h3>
