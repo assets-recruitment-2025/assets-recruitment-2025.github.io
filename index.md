@@ -57,15 +57,13 @@ permalink: /
 >
   <h2 id="schedule-heading" class="section-heading">Schedule</h2>
   <p class="section-subheading">
-    We’ll run the workshop online via Zoom over the week of October 20–25. Sessions are spread out to reduce fatigue; exact dates/times will be set based on participants’ availability.
+    Three interactive online sessions over the week of Oct 20–25 to balance deep discussion with participant flexibility.
   </p>
 
-  <!-- 1) Intro paragraph -->
-  <div class="schedule-intro">
-    <p>
-      We divide into three online sessions across multiple days. Below is the flow, from prep through wrap‑up.
-    </p>
-  </div>
+<!-- 1) Intro paragraph -->
+<p>
+We will run the workshop online via Zoom across three sessions (see **Table 1** below) during the week of October 20–25. We will divide it into 3 online sessions spread over multiple days to reduce participant fatigue. The exact dates and times for the sessions will be determined based on selected participants' availability.
+</p>
 
   <!-- 2) Phases grid -->
   <div class="schedule-phases">
@@ -109,6 +107,7 @@ permalink: /
 
   <!-- 3) Sessions table -->
   <table class="schedule-table" aria-label="Session schedule">
+    <caption>Table 1. Workshop Session Schedule</caption>
     <thead>
       <tr>
         <th>Session</th>
