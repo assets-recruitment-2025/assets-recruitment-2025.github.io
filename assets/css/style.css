@@ -464,10 +464,11 @@ img {
 }
 
 #participate {
+  padding: 4rem 2rem;
   background:  #DDDDDD;
 }
 #schedule {
-  padding: auto;
+  padding: 4rem 2rem;
   background: #EFEFEF;
 }
 #organizers {
