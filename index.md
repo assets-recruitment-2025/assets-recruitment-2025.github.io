@@ -204,18 +204,27 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <h3>Lloyd May</h3>
       <p>Ph.D. Candidate</p>
       <p>Stanford University</p>
+      <ul class="social-links organizer-links" aria-label="Lloyd May links">
+        <li><a href="https://www.lloydmay.net/" target="_blank" rel="noopener">🔗</a></li>
+      </ul>
     </div>
         <div class="organizer">
       <img src="assets/img/saad.jpeg" alt="Photo of Saad Hassan">
       <h3>Saad Hassan</h3>
       <p>Faculty Member</p>
       <p>Tulane University</p>
+      <ul class="social-links organizer-links" aria-label="Saad Hassan links">
+        <li><a href="https://saadh.info/" target="_blank" rel="noopener">🔗</a></li>
+      </ul>
     </div>
         <div class="organizer">
       <img src="assets/img/khang.png" alt="Photo of Khang Dang">
       <h3>Khang Dang</h3>
       <p>Ph.D. Candidate</p>
       <p>New&nbsp;Jersey&nbsp;Institute&nbsp;of&nbsp;Technology</p>
+      <ul class="social-links organizer-links" aria-label="Khang Dang links">
+        <li><a href="https://www.khang4dang.net/" target="_blank" rel="noopener">🔗</a></li>
+      </ul>
     </div>
 
     <!-- Row 2 -->
@@ -224,12 +233,18 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <h3>Sooyeon Lee</h3>
       <p>Assistant Professor</p>
       <p>New&nbsp;Jersey&nbsp;Institute&nbsp;of&nbsp;Technology</p>
+      <ul class="social-links organizer-links" aria-label="Sooyeon Lee links">
+        <li><a href="https://people.njit.edu/profile/sl287" target="_blank" rel="noopener">🔗</a></li>
+      </ul>
     </div>
     <div class="organizer">
       <img src="assets/img/oliver.jpg" alt="Photo of Oliver Alonzo">
       <h3>Oliver Alonzo</h3>
       <p>Assistant Professor</p>
       <p>DePaul University</p>
+      <ul class="social-links organizer-links" aria-label="Oliver Alonzo links">
+        <li><a href="https://oliveralonzo.com/" target="_blank" rel="noopener">🔗</a></li>
+      </ul>
     </div>
   </div>
 </section>

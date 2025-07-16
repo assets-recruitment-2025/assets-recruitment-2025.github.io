@@ -586,3 +586,20 @@ img {
   font-size: 1.05rem;
   color: var(--clr-text-muted);
 }
+
+/* if you want the organizer links a little smaller or inline */
+.organizer-links {
+  margin-top: 0.5rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+.organizer-links a {
+  font-size: 0.9rem;     /* slightly smaller text */
+  color: var(--clr-text-muted);
+  transition: color 0.2s;
+}
+.organizer-links a:hover {
+  color: var(--clr-accent);
+}
