@@ -97,6 +97,7 @@ permalink: /
       </a>
     </div>
   </div>
+</div>
 </section>
 
 <!-- SCHEDULE -->
