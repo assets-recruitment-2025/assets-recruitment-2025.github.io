@@ -6,7 +6,7 @@
   --site-gutter: 2rem;   /* header’s left/right padding */
 
   /* BACKGROUNDS & SURFACES */
-  --clr-bg:        #F2F2F7; /* page background */
+  --clr-bg:        #fff; /* page background */
   --clr-surface:   #cfcfd0; /* cards, nav, footer */
 
   /* TEXT */
