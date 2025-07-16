@@ -22,7 +22,7 @@ permalink: /
 <div class="content-wrapper">
 
  <!-- ABOUT -->
-<section id="about" class="section section-light" aria-labelledby="about-heading">
+<section id="about" class="section section-light full-bleed" aria-labelledby="about-heading">
 <h2 id="about-heading" class="section-heading">About</h2>
 <p class="section-subheading">Why this workshop matters</p>
 <p>
@@ -44,7 +44,7 @@ permalink: /
 <!-- CALL FOR PARTICIPATION -->
 <section
   id="participate"
-  class="section section-light call-for-participation"
+  class="section section-light call-for-participation full-bleed"
   aria-labelledby="participate-heading"
 >
   <div class="call-header">
@@ -98,7 +98,7 @@ permalink: /
 <!-- SCHEDULE -->
 <section
   id="schedule"
-  class="section section-dark"
+  class="section section-dark full-bleed"
   aria-labelledby="schedule-heading"
 >
   <h2 id="schedule-heading" class="section-heading">Schedule</h2>
@@ -188,7 +188,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
 </section>
 
 <!-- ORGANIZERS -->
-<section id="organizers" class="section section–light" aria-labelledby="organizers-heading">
+<section id="organizers" class="section section–light full-bleed" aria-labelledby="organizers-heading">
   <h2 id="organizers-heading" class="section-heading">Workshop Organizers</h2>
   <p class="section-subheading">Meet our team</p>
 

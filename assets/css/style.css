@@ -491,7 +491,7 @@ img {
   max-width: calc(3 * var(--card-width) + 2 * var(--gap));
   margin: 0 auto;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 #organizers .organizer {
@@ -586,3 +586,21 @@ img {
   font-size: 1.05rem;
   color: var(--clr-text-muted);
 }
+
+/* make any block span full viewport width */
+.full-bleed {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/* constrain inner content */
+.site-container {
+  max-width: var(--site-max);
+  margin: 0 auto;
+  padding: 0 var(--site-gutter);
+}
+
