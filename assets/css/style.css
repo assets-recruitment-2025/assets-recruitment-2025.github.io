@@ -6,8 +6,8 @@
   --site-gutter: 2rem;   /* header’s left/right padding */
 
   /* BACKGROUNDS & SURFACES */
-  --clr-bg:        #fff; /* page background */
-  --clr-surface:   #fff; /* cards, nav, footer */
+  --clr-bg:        #F2F2F7; /* page background */
+  --clr-surface:   #cfcfd0; /* cards, nav, footer */
 
   /* TEXT */
   --clr-text:      #1C1C1E; /* primary text */
@@ -461,7 +461,7 @@ img {
 #about {
   max-width: var(--site-max);
   padding: 4rem 2rem;
-  background:  #fff;
+  background:  #EFEFEF;
   margin: 0 auto;
 }
 
@@ -473,7 +473,7 @@ img {
 #schedule {
   max-width: var(--site-max);
   padding: auto;
-  background: #fff;
+  background: #EFEFEF;
   margin: 0 auto;
 }
 #organizers {
