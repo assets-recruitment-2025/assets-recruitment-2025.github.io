@@ -488,25 +488,28 @@ img {
   text-align: center;
 }
 
-/* —— Call for Participation: engaging grid cards —— */
+/* —— Call for Participation: simplified 3‑card grid —— */
 .call-for-participation {
+  padding: 3rem 0;
   background: var(--clr-bg);
-  padding: 2rem 0;
 }
 
+/* Center header text under section */
 .call-for-participation .call-header {
   text-align: center;
   max-width: 700px;
   margin: 0 auto 2rem;
 }
 
+/* 3‑column grid, falls to 1‑col on narrow screens */
 .call-for-participation .call-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
   gap: var(--gap);
   margin-bottom: 2rem;
 }
 
+/* Base card styling */
 .call-for-participation .call-card {
   background: var(--clr-surface);
   padding: 1.5rem;
@@ -514,27 +517,45 @@ img {
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   transition: transform 0.2s, box-shadow 0.2s;
 }
-
 .call-for-participation .call-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
+/* Icon above each card */
 .call-for-participation .call-card-icon {
-  font-size: 2rem;
+  font-size: 2.25rem;
   margin-bottom: 0.75rem;
+  display: inline-block;
 }
 
+/* CTA card overrides */
 .call-for-participation .call-card--cta {
-  text-align: center;
   background: var(--clr-accent);
   color: #fff;
+  text-align: center;
 }
-
 .call-for-participation .call-card--cta .call-card-icon {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
 }
-
 .call-for-participation .call-card--cta .btn {
   margin-top: 1rem;
+}
+
+/* Attendee selection panel (full‑width but constrained) */
+.call-for-participation .selection-panel {
+  background: var(--clr-surface);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 900px;
+  margin: 0 auto;
+}
+.call-for-participation .selection-panel h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+.call-for-participation .selection-panel ol {
+  padding-left: 1.25rem;
+  margin: 1rem 0;
 }

@@ -48,9 +48,12 @@ permalink: /
   aria-labelledby="participate-heading"
 >
   <div class="call-header">
-    <h2 id="participate-heading" class="section-heading">Call for Participation</h2>
+    <h2 id="participate-heading" class="section-heading">
+      Call for Participation
+    </h2>
     <p class="section-subheading">
-      Submit your Statement of Interest by <time datetime="2025-08-08">Aug 8, 2025</time>
+      Submit your Statement of Interest by
+      <time datetime="2025-08-08">Aug 8, 2025</time>
     </p>
   </div>
 
@@ -60,8 +63,9 @@ permalink: /
       <div class="call-card-icon">🤝</div>
       <h3>Why Join?</h3>
       <p>
-        <em>“Nothing about us without us”</em>—we need your voice. Help us tackle the
-        ethical and methodological challenges of recruiting participants with disabilities.
+        <em>“Nothing about us without us”</em>—we need your voice. Help us tackle
+        the ethical and methodological challenges of recruiting participants
+        with disabilities.
       </p>
     </div>
 
@@ -76,23 +80,16 @@ permalink: /
       </ul>
     </div>
 
-    <!-- Card 3: Logistics -->
-    <div class="call-card">
-      <div class="call-card-icon">📅</div>
-      <h3>Logistics</h3>
-      <p>
-        3 online sessions via Zoom during Oct 20–25. Selected via Google Form (your
-        experiences & perspectives). Must have recruited in ≥1 accessibility study.
-      </p>
-    </div>
-
-    <!-- Card 4: Apply Now CTA -->
+    <!-- Card 3: Ready to Apply (CTA) -->
     <div class="call-card call-card--cta">
       <div class="call-card-icon">✍️</div>
       <h3>Ready to Apply?</h3>
-      <p>Complete the Google Form to share your interest and experiences.</p>
+      <p>
+        Complete the Google Form to share your interest and your accessibility
+        recruiting experiences.
+      </p>
       <a
-        class="btn btn-primary btn-lg"
+        class="btn btn-primary"
         href="{{ '/participate/' | relative_url }}"
       >
         Apply Now
@@ -100,21 +97,26 @@ permalink: /
     </div>
   </div>
 
-  <!-- Attendee selection panel (unchanged) -->
   <div class="selection-panel">
     <h3>Attendee Selection</h3>
     <p>
       We’re capping at <strong>30 participants</strong>. Minimum eligibility:
-      experience recruiting human participants in at least one disability‑ or
-      accessibility‑related study.
+      experience recruiting in at least one disability‑ or accessibility‑related
+      study.
     </p>
-    <p>If we receive more than 30 eligible applications, two organizers will rate each on a 5‑point scale against three criteria:</p>
+    <p>
+      If we receive more than 30 eligible applications, two organizers will
+      independently rate each on a 5‑point scale against three criteria:
+    </p>
     <ol>
       <li>Alignment of prior experience with our themes</li>
       <li>Clarity on what you’ll contribute</li>
       <li>Diversity of perspective</li>
     </ol>
-    <p>We’ll hold a quick sync meeting if we need to finalize the list.</p>
+    <p>
+      We’ll hold a quick sync meeting only if we need to finalize the attendee
+      list.
+    </p>
   </div>
 </section>
 
