@@ -55,7 +55,6 @@ permalink: /
       <time datetime="2025-08-08">August 8, 2025</time>
     </p>
   </div>
-</div>
 <p>
     Our workshop aims to address these critical issues related to participant recruitment by fostering discussion around how to effectively and ethically recruit participants with disabilities for accessibility research studies. We invite participation from a diverse group of accessibility researchers to share current challenges and practices in participant recruitment and to collaboratively envision the future of inclusive recruitment. We believe this conversation will make a timely and valuable contribution to the field.
 </p>
