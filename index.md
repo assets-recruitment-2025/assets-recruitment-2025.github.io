@@ -57,6 +57,20 @@ permalink: /
     </p>
   </div>
 
+<!-- workshop-at-conference intro -->
+  <div class="call-intro">
+    <p>
+      <strong>Our workshop is part of the ASSETS’25 conference.</strong>
+      You do not have to register for the full conference to attend the workshop.
+      ASSETS is an ACM conference: the Association for Computing Machinery, the
+      world’s largest educational computing society.
+    </p>
+    <p>
+      We also encourage you to register and attend the full ASSETS’25
+      conference!
+    </p>
+  </div>
+
   <div class="call-grid">
     <!-- Card 1: Why Join -->
     <div class="call-card">
@@ -113,10 +127,6 @@ permalink: /
       <li>Clarity on what you’ll contribute</li>
       <li>Diversity of perspective</li>
     </ol>
-    <p>
-      We’ll hold a quick sync meeting only if we need to finalize the attendee
-      list.
-    </p>
   </div>
 </section>
 
