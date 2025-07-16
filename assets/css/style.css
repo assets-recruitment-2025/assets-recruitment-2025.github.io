@@ -345,9 +345,11 @@ img {
 }
 .section-light {
   background: var(--clr-bg);
+  padding: 4rem 2rem;
 }
 .section-dark {
   background: var(--clr-surface);
+  padding: 4rem 2rem;
 }
 
 /* Centered section heading + subtitle */
@@ -464,7 +466,6 @@ img {
 }
 
 #participate {
-  padding: auto;
   background:  #DDDDDD;
 }
 #schedule {
