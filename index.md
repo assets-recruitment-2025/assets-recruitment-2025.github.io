@@ -218,7 +218,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <p>Tulane University</p>
     </div>
         <div class="organizer">
-      <img src="assets/img/khang.jpg" alt="Photo of Khang Dang">
+      <img src="assets/img/khang.png" alt="Photo of Khang Dang">
       <h3>Khang Dang</h3>
       <p>Ph.D. Candidate</p>
       <p>New&nbsp;Jersey&nbsp;Institute&nbsp;of&nbsp;Technology</p>
