@@ -428,9 +428,10 @@ img {
   background: rgba(0,0,0,0.02);
 }
 
-.schedule-table {
-  /* push the caption below instead of above */
-  caption-side: bottom;
+.schedule-table caption {
+  caption-side: bottom;   /* keep it below the rows */
+  text-align: left;       /* left‑align the caption */
+  margin-top: 1rem;       /* add space between the table and caption */
 }
 
 
