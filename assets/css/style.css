@@ -552,8 +552,6 @@ img {
 /* CTA card overrides */
 .call-for-participation .call-card--cta {
   background: var(#cfcfd0);
-  color: #fff;
-  text-align: center;
 }
 .call-for-participation .call-card--cta .call-card-icon {
   font-size: 2.75rem;
