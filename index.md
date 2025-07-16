@@ -186,6 +186,8 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       </tr>
     </tbody>
   </table>
+</div>
+</section>
 
 <!-- ORGANIZERS -->
 <section id="organizers" class="section section–light" aria-labelledby="organizers-heading">

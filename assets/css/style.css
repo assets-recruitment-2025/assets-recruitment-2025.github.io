@@ -467,15 +467,15 @@ img {
 
 #participate {
   padding: 4rem 2rem;
-  background:  #DDDDDD;
+  background:  #EFEFEF;
 }
 #schedule {
   padding: 4rem 2rem;
-  background: #EFEFEF;
+  background: #DDDDDD;
 }
 #organizers {
   padding: 4rem 2rem;
-  background: #DDDDDD;          /* custom light gray */
+  background: #EFEFEF;          /* custom light gray */
 }
 
 /* —— KEEP this flex‑based layout —— */
