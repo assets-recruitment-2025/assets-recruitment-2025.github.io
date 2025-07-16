@@ -428,6 +428,11 @@ img {
   background: rgba(0,0,0,0.02);
 }
 
+.schedule-table {
+  /* push the caption below instead of above */
+  caption-side: bottom;
+}
+
 
 .organizer {
   text-align: center;
