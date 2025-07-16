@@ -72,28 +72,6 @@ permalink: /
   </div>
 
   <div class="call-grid">
-    <!-- Card 1: Why Join -->
-    <div class="call-card">
-      <div class="call-card-icon">🤝</div>
-      <h3>Why Join?</h3>
-      <p>
-        <em>“Nothing about us without us”</em>—we need your voice. Help us tackle
-        the ethical and methodological challenges of recruiting participants
-        with disabilities.
-      </p>
-    </div>
-
-    <!-- Card 2: Focus Areas -->
-    <div class="call-card">
-      <div class="call-card-icon">🎯</div>
-      <h3>Focus Areas</h3>
-      <ul>
-        <li>Recruitment methods & models</li>
-        <li>Eligibility & verification</li>
-        <li>Ethical sustainability</li>
-      </ul>
-    </div>
-
     <!-- Card 3: Ready to Apply (CTA) -->
     <div class="call-card call-card--cta">
       <div class="call-card-icon">✍️</div>
