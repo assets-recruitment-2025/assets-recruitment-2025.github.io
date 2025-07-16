@@ -430,6 +430,7 @@ img {
 .organizer {
   text-align: center;
   max-width: 240px;
+  padding: 4rem 2rem;
 }
 
 .organizer img {
