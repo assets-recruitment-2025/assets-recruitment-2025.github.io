@@ -36,6 +36,7 @@ permalink: /
 <p>
     The workshop aims to share current practices, identify key challenges, and develop preliminary guidelines to support accessibility researchers in more sustainable participant recruitment.
 </p>
+</div>
 </section>
 
 <!-- CALL FOR PARTICIPATION -->
