@@ -58,7 +58,7 @@ permalink: /
             We welcome submissions and participation from researchers across all career stages, disciplines, and geographic regions, with particular encouragement for those from the Global South, non-Western countries, and those whose work addresses the unique needs and contexts of these regions. We recognize that accessibility research has historically centered Western and Global North perspectives, and we seek to amplify a broader range of voices.
         </p>
         <p>
-            Our workshop is part of the ASSETS’25 conference. ASSETS is an ACM conference: the Association for Computing Machinery, the world’s largest educational computing society. Attendees do not need to register for the conference to apply for the workshop.
+            Our workshop is part of the ASSETS’25 conference. ASSETS is an ACM conference: the Association for Computing Machinery, the world’s largest educational computing society. Selected attendees do not need to register for the full conference to apply for the workshop.
         </p>
         <p>
             To apply, please complete a Google Form with a <strong>Statement of Interest (SOI)</strong> by <strong>Friday, August 8, 2025</strong>. You will be asked to briefly address the following:
