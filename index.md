@@ -67,7 +67,7 @@ permalink: /
     Our workshop is part of the ASSETS’25 conference. ASSETS is an ACM conference: the Association for Computing Machinery, the world’s largest educational computing society. Attendees do not need to register for the conference to apply for the workshop.
 </p>
 <p>
-    To apply, please complete a Google Form with a <strong>Statement of Interest (SOI)</strong> by <strong>Friday, August 8, 2025</strong>. You will be asked to briefly address the following::
+    To apply, please complete a Google Form with a <strong>Statement of Interest (SOI)</strong> by <strong>Friday, August 8, 2025</strong>. You will be asked to briefly address the following:
 </p>
 <ul class="section-list">
   <li>Your experience recruiting participants with disabilities—including which communities you have worked with and your considerations related to the workshop’s three core themes: recruitment methods, eligibility criteria and verification, and ethical/sustainability concerns.</li>
