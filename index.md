@@ -11,7 +11,7 @@ permalink: /
     Join us <time datetime="2025-10-20">Oct 20–26, 2025</time> for virtual sessions to discuss best practices, challenges, and innovations in recruiting participants for accessibility studies.
   </p>
   <div class="hero-cta">
-    <a class="btn btn-primary" href="#participate">Submit Your Interest</a>
+    <a class="btn btn-primary" href="#participate">Apply to Attend</a>
     <p class="deadline">
       Deadline: <time datetime="2025-08-08">August 8, 2025</time>
     </p>
@@ -52,7 +52,7 @@ permalink: /
       Call for Participation
     </h2>
     <p class="section-subheading">
-      Submit your Statement of Interest by
+      Apply to Attend by
       <time datetime="2025-08-08">August 8, 2025</time>
     </p>
   </div>
@@ -76,7 +76,7 @@ permalink: /
         class="btn btn-primary"
         href="{{ '/participate/' | relative_url }}"
       >
-        Submit Your Interest
+        Apply to Attend
       </a>
     </div>
   </div>
