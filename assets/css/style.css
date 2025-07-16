@@ -586,23 +586,3 @@ img {
   font-size: 1.05rem;
   color: var(--clr-text-muted);
 }
-
-/* instead of .section { padding: 4rem 2rem; } */
-.section {
-  position: relative;
-  left: 50%;
-  right: 50%;
-  width: 100vw;
-  margin-left: -50vw;
-  margin-right: -50vw;
-
-  /* keep your vertical padding */
-  padding: 4rem 0;
-  /* backgrounds already set per‑ID will now span full width */
-}
-
-.site-container {
-  max-width: var(--site-max);
-  margin: 0 auto;
-  padding: 0 var(--site-gutter);
-}

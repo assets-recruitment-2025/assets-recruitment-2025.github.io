@@ -47,7 +47,6 @@ permalink: /
   class="section section-light call-for-participation"
   aria-labelledby="participate-heading"
 >
-<div class="site-container">
   <div class="call-header">
     <h2 id="participate-heading" class="section-heading">
       Call for Participation
