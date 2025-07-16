@@ -111,23 +111,20 @@ permalink: /
     </div>
   </div>
 
-  <div class="selection-panel">
-    <h3>Attendee Selection</h3>
-    <p>
-      We’re capping at <strong>30 participants</strong>. Minimum eligibility:
-      experience recruiting in at least one disability‑ or accessibility‑related
-      study.
-    </p>
-    <p>
-      If we receive more than 30 eligible applications, two organizers will
-      independently rate each on a 5‑point scale against three criteria:
-    </p>
-    <ol>
-      <li>Alignment of prior experience with our themes</li>
-      <li>Clarity on what you’ll contribute</li>
-      <li>Diversity of perspective</li>
-    </ol>
-  </div>
+<p>
+    <strong>Attendee Selection: </strong>Given the size of our team, the limitations of providing an accessible experience in an online format, and the need to ensure manageable group sizes for both combined and breakout discussions, we are aiming for a maximum of <strong>30 participants</strong>. The minimum eligibility criterion for participation in the workshop is <strong>experience recruiting human participants in at least one disability- or accessibility-related research study.</strong>
+</p>
+<p>
+    If we receive more than 30 eligible applications, we will evaluate responses to the three main questions in the Google Form. At least two members of our team will review all form responses against three criteria:
+</p>
+<ul class="section-list">
+  <li>The attendee reflected on how their prior experience aligns with the workshop.</li>
+  <li>The attendee explained what they will contribute to the workshop.</li>
+  <li>The attendee will contribute a diverse perspective to the workshop discussions.</li>
+</ul>
+<p>
+    The workshop aims to share current practices, identify key challenges, and develop preliminary guidelines to support accessibility researchers in more sustainable participant recruitment.
+</p>
 </section>
 
 
