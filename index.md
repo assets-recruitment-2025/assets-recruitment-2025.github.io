@@ -67,7 +67,7 @@ permalink: /
     <!-- Card: Ready to Apply (CTA) -->
     <div class="call-card call-card--cta">
       <div class="call-card-icon">✍️</div>
-      <h3>Ready to Apply?</h3>
+      <h3>Ready to Register?</h3>
       <p>
         Complete the Google Form to share your interest and your accessibility
         recruiting experiences.
