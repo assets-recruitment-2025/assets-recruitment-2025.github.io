@@ -461,13 +461,11 @@ img {
 #about {
   padding: 4rem 2rem;
   background:  #EFEFEF;
-  margin: 0 auto;
 }
 
 #participate {
-  padding: 4rem 2rem;
+  padding: auto;
   background:  #DDDDDD;
-  margin: 0 auto;
 }
 #schedule {
   padding: 4rem 2rem;
@@ -561,6 +559,7 @@ img {
 /* Attendee selection panel (full‑width but constrained) */
 .call-for-participation .selection-panel {
   background: var(--clr-surface);
+  padding: 1.5rem;
   border-radius: var(--radius);
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   max-width: 900px;
@@ -571,6 +570,7 @@ img {
   margin-bottom: 0.75rem;
 }
 .call-for-participation .selection-panel ol {
+  padding-left: 1.25rem;
   margin: 0 auto;
 }
 .call-intro {
