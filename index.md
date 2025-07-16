@@ -42,11 +42,68 @@ permalink: /
 </section>
 
 <!-- CALL FOR PARTICIPATION -->
-<section id="participate" class="section section–light" aria-labelledby="participate-heading">
-  <h2 id="participate-heading" class="section-heading">Call for Participation</h2>
-  <p class="section-subheading">Submit your Statement of Interest by August 8, 2025</p>
-  <p>Opens <time datetime="2025-07-16">July 16</time> → Closes <time datetime="2025-08-08">August 8</time>. We welcome…</p>
-  <a class="btn btn-secondary" href="{{ '/participate/' | relative_url }}">Submit Your Interest</a>
+<section
+  id="participate"
+  class="section section-light"
+  aria-labelledby="participate-heading"
+>
+  <h2 id="participate-heading" class="section-heading">
+    Call for Participation
+  </h2>
+  <p class="section-subheading">
+    Submit your Statement of Interest by <time datetime="2025-08-08">Aug 8, 2025</time>
+  </p>
+
+  <!-- workshop-at-conference intro -->
+  <div class="call-intro">
+    <p>
+      <strong>Our workshop is part of the ASSETS’25 conference.</strong>
+      You do not have to register for the full conference to attend the workshop.
+      ASSETS is an ACM conference: the Association for Computing Machinery, the
+      world’s largest educational computing society.
+    </p>
+    <p>
+      We also encourage you to register and attend the full ASSETS’25
+      conference!
+    </p>
+  </div>
+
+  <!-- main call content & attendee selection side by side -->
+  <div class="call-grid">
+    <!-- left: call details -->
+    <div class="call-details">
+      <p><em>“Nothing about us without us”</em> calls for including disability communities at every stage of computing accessibility research. Recruiting participants brings challenges around conceptualizing recruiting criteria, verification, ethics, and balancing genuine inclusion with avoiding tokenism and participant over‑burden.</p>
+      <p>This virtual workshop will focus on:</p>
+      <ul>
+        <li>Recruitment methods & models tailored for participants with disabilities</li>
+        <li>How eligibility criteria are conceptualized & verified amid tensions between various disability models</li>
+        <li>Ethical considerations for sustainable engagement</li>
+      </ul>
+      <p>We will run the workshop online via Zoom across three sessions during the week of October 20–25. Participants will be selected via a Google Form where they share:</p>
+      <ul>
+        <li>Their experiences recruiting for at least one computing accessibility study</li>
+        <li>Perspectives related to the three workshop themes</li>
+      </ul>
+      <p>We encourage submissions from researchers at all career stages, with emphasis on diverse geographic, cultural, and smaller‑population perspectives.</p>
+      <p>All selected participants must register through ASSETS and actively contribute to discussions. We promise an engaging, inclusive environment to collaboratively shape best practices.</p>
+      <a class="btn btn-secondary" href="{{ '/participate/' | relative_url }}">
+        Submit Your Interest
+      </a>
+    </div>
+
+    <!-- right: attendee selection -->
+    <div class="attendee-selection">
+      <h3>Attendee Selection</h3>
+      <p>We’re capping the workshop at <strong>30 participants</strong> to ensure manageable group sizes and an accessible experience online. Minimum eligibility: experience recruiting human participants in at least one disability‑ or accessibility‑related research study (others will be desk rejected).</p>
+      <p>If we receive more than 30 eligible applications, at least two organizers will independently rate each on a 5‑point scale (“Strongly Disagree” → “Strongly Agree”) against these questions:</p>
+      <ol>
+        <li>The attendee’s prior experience aligns with the workshop themes.</li>
+        <li>The attendee described what they’ll contribute to the workshop.</li>
+        <li>The attendee brings a diverse perspective to our discussions.</li>
+      </ol>
+      <p>Should we need further deliberation, we’ll hold a quick synchronous meeting to finalize the attendee list.</p>
+    </div>
+  </div>
 </section>
 
 <!-- SCHEDULE -->

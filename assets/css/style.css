@@ -487,3 +487,46 @@ img {
   flex: 0 0 var(--card-width);
   text-align: center;
 }
+
+/* CALL FOR PARTICIPATION – two‑column layout */
+.call-intro {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+  color: var(--clr-text-muted);
+}
+
+.call-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--gap);
+  margin-bottom: 2rem;
+}
+
+.call-details,
+.attendee-selection {
+  background: var(--clr-surface);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.call-details ul,
+.attendee-selection ol {
+  margin: 1rem 0;
+  padding-left: 1.25rem;
+}
+
+.attendee-selection h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.attendee-selection ol {
+  list-style: decimal;
+}
+
+.attendee-selection ol li {
+  margin-bottom: 0.5rem;
+}
+
