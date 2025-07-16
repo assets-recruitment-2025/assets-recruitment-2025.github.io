@@ -11,7 +11,7 @@ permalink: /
     Join us during the week of October 20–26, 2025 for virtual sessions to discuss current practices, key challenges, and guidelines in recruiting participants for accessibility studies.
   </p>
   <div class="hero-cta">
-    <a class="btn btn-primary" href="#participate">Apply to Participate</a>
+    <a class="btn btn-primary" href="https://forms.gle/XrTLxiypCMxgvmiF6">Apply to Participate</a>
     <p class="deadline">
       Deadline: <time datetime="2025-08-08">August 8, 2025</time>
     </p>
@@ -86,7 +86,7 @@ permalink: /
             </p>
             <a
                 class="btn btn-primary"
-                href="{{ '/participate/' | relative_url }}"
+                href="https://forms.gle/XrTLxiypCMxgvmiF6"
             >
                 Apply to Participate
             </a>
