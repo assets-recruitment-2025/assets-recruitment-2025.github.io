@@ -459,16 +459,20 @@ img {
 
 /* Individually set each section’s background */
 #about {
+  padding: 4rem 2rem;
   background:  #EFEFEF;
 }
 
 #participate {
+  padding: 4rem 2rem;
   background:  #DDDDDD;
 }
 #schedule {
+  padding: 4rem 2rem;
   background: #EFEFEF;
 }
 #organizers {
+  padding: 4rem 2rem;
   background: #DDDDDD;          /* custom light gray */
 }
 
