@@ -552,7 +552,7 @@ img {
 /* CTA card overrides */
 .call-for-participation .call-card--cta {
   background: var(#cfcfd0);
-  max-width: 300px
+  max-width: 300px;
   text-align: center;
 }
 .call-for-participation .call-card--cta .call-card-icon {
