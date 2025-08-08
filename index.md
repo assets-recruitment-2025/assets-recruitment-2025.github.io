@@ -213,7 +213,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
     </ul>
     </div>
     <div class="organizer">
-    <img src="assets/img/saad.jpeg" alt="Headshot of Saad Hassan">
+    <img src="assets/img/saad.jpg" alt="Headshot of Saad Hassan">
       <h3>Saad Hassan</h3>
       <p>Faculty Member</p>
       <p>Tulane University</p>
