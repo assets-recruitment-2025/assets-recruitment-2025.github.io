@@ -43,7 +43,7 @@ permalink: /
     <div class="milestone upcoming">
       <span class="icon">⏳</span>
       <div>
-        <strong>Register by:</strong>
+        <strong>Register by 11:59 PM on:</strong>
         <time datetime="2025-10-19">Oct 19, 2025</time>
       </div>
     </div>
@@ -71,7 +71,7 @@ permalink: /
       Register to Attend
     </a>
     <p class="deadline">
-      Registration closes <time datetime="2025-10-19">Oct 19, 2025</time>
+      Registration closes by 11:59 PM on <time datetime="2025-10-19">Oct 19, 2025</time>
     </p>
   </div>
 </section>
@@ -216,6 +216,8 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
     <thead>
       <tr>
         <th>Session</th>
+        <th>Date</th>
+        <th>Time (ET)</th>
         <th>Duration</th>
         <th>Focus</th>
       </tr>
@@ -223,6 +225,8 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
     <tbody>
       <tr>
         <td>Session 1</td>
+        <td>Oct 21, 2025</td>
+        <td>3:00 PM – 4:30 PM</td>
         <td>90 min</td>
         <td>
           Welcome & introductions, followed by themed group discussions and summarization.
@@ -230,6 +234,8 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       </tr>
       <tr>
         <td>Session 2</td>
+        <td>Oct 22, 2025</td>
+        <td>3:00 PM – 4:30 PM</td>
         <td>90 min</td>
         <td>
           Begin with a shareout from the small groups from Session 1, including discussions on Discord. Then, interest-based group discussions and summarization.
@@ -237,7 +243,9 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       </tr>
       <tr>
         <td>Session 3</td>
-        <td>60 min</td>
+        <td>Oct 24, 2025</td>
+        <td>11:00 AM – 12:00 PM</td>
+        <td>90 min</td>
         <td>
           Begin with a shareout from the small groups from Session 2, including discussions on Discord. Then, identify themes, concrete recommendations, and lingering questions identified throughout the workshop.
         </td>
