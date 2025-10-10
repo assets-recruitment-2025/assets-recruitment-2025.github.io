@@ -62,7 +62,7 @@ permalink: /
       class="btn btn-primary"
       href="https://web.cvent.com/event/2197df01-92d8-4c44-8ac6-4de540b0d61f/summary"
     >
-      Register to Attend
+      Register
     </a>
     <p class="deadline">
       Registration closes by 11:59 PM on <time datetime="2025-10-19">Oct 19, 2025</time>
@@ -170,7 +170,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <h3>Before the Workshop</h3>
       <ul>
         <li>
-          We will communicate by email with instructions on how to register, a link to submit your availability for the three sessions, prompts to share your topic interests (for Session 2), and details on joining the workshop’s Discord.
+          We will communicate by email with instructions on how to register, a link to submit your availability for the three sessions, and details on joining the workshop’s Discord.
         </li>
         <li>
           We will also ask each participant to submit a short paragraph introducing themselves.
