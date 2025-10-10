@@ -617,3 +617,23 @@ img {
   align-items: center;
   gap: 0.5rem;
 }
+
+.hero-milestones .milestone time {
+  display: block;
+  margin-top: 0.25rem;  /* small gap for readability */
+}
+
+.hero-milestones {
+  /* make it a 4-column grid so we have 4 “slots” in each row */
+  grid-template-columns: repeat(4, auto);
+}
+
+.hero-milestones > .milestone.upcoming:nth-child(5) {
+  /* 5th item → 1st upcoming → go into column 2 */
+  grid-column: 2;
+}
+
+.hero-milestones > .milestone.upcoming:nth-child(6) {
+  /* 6th item → 2nd upcoming → go into column 3 */
+  grid-column: 3;
+}
