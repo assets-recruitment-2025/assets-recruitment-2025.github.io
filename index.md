@@ -18,8 +18,16 @@ permalink: /
       <time datetime="2025-08-22">Aug 22, 2025</time>
     </div>
     <div class="milestone past">
+      <strong>Welcome email sent:</strong>
+      <time datetime="2025-08-25">Aug 25, 2025</time> 
+    </div>
+    <div class="milestone past">
+      <strong>Early registration:</strong>
+      <time datetime="2025-08-28">Aug 28, 2025</time> 
+    </div>
+    <div class="milestone past">
       <strong>Availability poll sent:</strong>
-      <time datetime="2025-09-25">Sep 25, 2025</time> (due Oct 1)
+      <time datetime="2025-09-25">Sep 25, 2025</time> 
     </div>
     <div class="milestone upcoming">
       <strong>Registration deadline:</strong>
@@ -32,26 +40,13 @@ permalink: /
   </div>
 
   <div class="hero-cta">
-    <!-- SOI form is now closed -->
-    <a
-      class="btn btn-secondary"
-      href="#"
-      aria-disabled="true"
-      tabindex="-1"
-    >
-      Applications Closed
-    </a>
-
-    <!-- still live: registration link -->
     <a
       class="btn btn-primary"
       href="https://web.cvent.com/event/2197df01-92d8-4c44-8ac6-4de540b0d61f/summary"
     >
       Register to Attend
     </a>
-
     <p class="deadline">
-      SOI deadline was <time datetime="2025-08-22">Aug 22, 2025</time><br>
       Registration closes <time datetime="2025-10-19">Oct 19, 2025</time>
     </p>
   </div>
