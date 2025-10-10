@@ -211,7 +211,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
 
   <!-- 3) Sessions table -->
   <table class="schedule-table" aria-label="Session schedule">
-    <caption> <strong>Table 1.</strong> Final Workshop Session Dates &amp; Times</caption>
+    <caption> <strong>Table 1.</strong> Final Workshop Session Schedule</caption>
     <thead>
       <tr>
         <th>Session</th>
