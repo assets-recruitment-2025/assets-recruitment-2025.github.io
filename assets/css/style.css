@@ -603,10 +603,12 @@ img {
 
 .hero-milestones .milestone.past {
   grid-row: 1;                              /* force into row 1 */
+  opacity: 0.6;
 }
 
 .hero-milestones .milestone.upcoming {
   grid-row: 2;                              /* force into row 2 */
+  opacity: 1;
 }
 
 /* keep the icon/text layout */
