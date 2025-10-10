@@ -100,81 +100,93 @@ permalink: /
   class="section section-dark"
   aria-labelledby="schedule-heading"
 >
-  <div class="site-container">
-    <h2 id="schedule-heading" class="section-heading">Schedule</h2>
-    <p class="section-subheading">
-      Three 90-minute online sessions via Zoom
-    </p>
+<div class="site-container">
+  <h2 id="schedule-heading" class="section-heading">Schedule</h2>
+  <p class="section-subheading">
+    Three online sessions during the week of October 20–26, 2025
+  </p>
 
-    <!-- Intro -->
-    <p>
-      We’ll meet on three days to reduce Zoom fatigue. Exact start times are
-      locked in below—no need to wait on availability polls!
-    </p>
+<!-- 1) Intro paragraph -->
+<p>
+We will run the workshop online via Zoom across three sessions (see <strong>Table 1</strong>) during the week of October 20–26. We will divide it into three online sessions spread over multiple days to reduce participant fatigue. The exact dates and times for the sessions will be determined based on selected participants' availability.
+</p>
 
-    <!-- Phases -->
-    <div class="schedule-phases">
-      <div class="phase">
-        <h3>Before the Workshop</h3>
-        <ul>
-          <li>
-            Welcome email with Discord invite and availability poll → due <strong>Sept 1, 2025</strong>
-          </li>
-          <li>
-            Share a short paragraph introducing yourself → by <strong>Sept 1, 2025</strong>
-          </li>
-        </ul>
-      </div>
-      <div class="phase">
-        <h3>During the Workshop</h3>
-        <ul>
-          <li>Synchronous small-group discussions + live summarizations</li>
-          <li>Asynchronous follow-ups on Discord after each session</li>
-          <li>Share-outs and synthesis in the final session</li>
-        </ul>
-      </div>
-      <div class="phase">
-        <h3>After the Workshop</h3>
-        <ul>
-          <li>Keep the Discord and materials open for one year</li>
-          <li>Draft a white paper summary—contributors welcome!</li>
-        </ul>
-      </div>
+  <!-- 2) Phases grid -->
+  <div class="schedule-phases">
+    <div class="phase">
+      <h3>Before the Workshop</h3>
+      <ul>
+        <li>
+          A welcome email will include instructions on how to join the workshops’ Discord, and a poll for participants' specific topics of interest (for Session 2) and availability for different options for the three sessions, due <strong>September 1, 2025</strong>.
+        </li>
+        <li>
+          We will also request that participants prepare 1-2 slides or a 1-minute video introduction by <strong>September 30, 2025</strong>, which we will share asynchronously before the workshop begins.
+        </li>
+      </ul>
     </div>
-
-    <!-- Final Dates & Times -->
-    <table class="schedule-table" aria-label="Final session schedule">
-      <caption class="table-caption">
-        <strong>Table 1.</strong> Final Workshop Session Dates &amp; Times
-      </caption>
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Time (ET)</th>
-          <th>Duration</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Oct 21, 2025</td>
-          <td>3:00 PM – 4:30 PM</td>
-          <td>90 min</td>
-        </tr>
-        <tr>
-          <td>Oct 22, 2025</td>
-          <td>3:00 PM – 4:30 PM</td>
-          <td>90 min</td>
-        </tr>
-        <tr>
-          <td>Oct 24, 2025</td>
-          <td>11:00 AM – 12:30 PM</td>
-          <td>90 min</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="phase">
+      <h3>During the Workshop</h3>
+      <ul>
+        <li>
+          The workshop will consist of synchronous themed group small discussions, followed by summarization of the discussion.
+        </li>
+        <li>
+          We will post summaries of the discussions to Discord after every session to also support asynchronous discussions before sharing out.
+        </li>
+        <li>
+          We will begin with discussions around the workshop's topics, followed by discussions centered around specific interests indicated by participants.
+        </li>
+      </ul>
+    </div>
+    <div class="phase">
+      <h3>After the Workshop</h3>
+      <ul>
+        <li>
+          We will maintain access to the workshop's content for asynchronous interactions.
+        </li>
+        <li>
+          The organizers will also write a white paper summarizing the workshop's outcomes and invite interested participants to contribute.
+        </li>
+      </ul>
+    </div>
   </div>
-</section>
 
+  <!-- 3) Sessions table -->
+  <table class="schedule-table" aria-label="Session schedule">
+    <caption> <strong>Table 1.</strong> Workshop Session Schedule</caption>
+    <thead>
+      <tr>
+        <th>Session</th>
+        <th>Duration</th>
+        <th>Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Session 1</td>
+        <td>90 min</td>
+        <td>
+          Welcome & introductions, followed by themed group discussions and summarization.
+        </td>
+      </tr>
+      <tr>
+        <td>Session 2</td>
+        <td>90 min</td>
+        <td>
+          Begin with a shareout from the small groups from Session 1, including discussions on Discord. Then, interest-based group discussions and summarization.
+        </td>
+      </tr>
+      <tr>
+        <td>Session 3</td>
+        <td>60 min</td>
+        <td>
+          Begin with a shareout from the small groups from Session 2, including discussions on Discord. Then, identify themes, concrete recommendations, and lingering questions identified throughout the workshop.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</section>
 
 <!-- ORGANIZERS -->
 <section id="organizers" class="section section–light" aria-labelledby="organizers-heading">
