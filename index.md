@@ -52,11 +52,7 @@ permalink: /
       <div>
         <strong>Workshop sessions:</strong>
         <!-- wrap in <time> so our block‐rule catches it -->
-        <time datetime="2025-10-21">Oct 21</time>
-        •
-        <time datetime="2025-10-22">Oct 22</time>
-        •
-        <time datetime="2025-10-24">Oct 24</time>
+        <time datetime="2025-10-21">Oct 21</time> • <time datetime="2025-10-22">Oct 22</time> • <time datetime="2025-10-24">Oct 24</time>
       </div>
     </div>
   </div>

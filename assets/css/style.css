@@ -662,6 +662,20 @@ img {
   opacity: 1;
 }
 
-.hero {
-  text-shadow: none;
+.hero-milestones {
+  /* bring back your normal text color */
+  color: var(--clr-text);
+  /* kill any inherited or later text‐shadow */
+  text-shadow: none !important;
+}
+/* and make sure your icons and labels inside also aren’t white/shadowed */
+.hero-milestones .milestone,
+.hero-milestones .milestone * {
+  color: inherit;
+  text-shadow: none !important;
+}
+
+.hero-milestones .milestone.upcoming > div {
+  /* keep everything on one line */
+  white-space: nowrap;
 }
