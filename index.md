@@ -57,7 +57,6 @@ permalink: /
         <time datetime="2025-10-22">Oct 22</time>
         •
         <time datetime="2025-10-24">Oct 24</time>
-
       </div>
     </div>
   </div>
@@ -166,7 +165,7 @@ permalink: /
 
 <!-- 1) Intro paragraph -->
 <p>
-We will run the workshop online via Zoom across three sessions (see <strong>Table 1</strong>) during the week of October 20–26. We divide it into three online sessions spread over multiple days to reduce participant fatigue. The exact dates and times based on selected participants' availability are locked in Table 1.
+We will run the workshop online via Zoom across three sessions (see <strong>Table 1</strong>) during the week of October 20–26. We divide it into three online sessions spread over multiple days to reduce participant fatigue. The exact dates and times based on selected participants' availability are shown in Table 1.
 </p>
 
   <!-- 2) Phases grid -->
