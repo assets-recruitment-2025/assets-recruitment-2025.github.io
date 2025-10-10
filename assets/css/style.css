@@ -661,3 +661,7 @@ img {
 .hero-milestones .milestone.upcoming {
   opacity: 1;
 }
+
+.hero {
+  text-shadow: none;
+}
