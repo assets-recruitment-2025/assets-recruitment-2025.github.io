@@ -106,7 +106,7 @@ permalink: /
             Call for Participation
             </h2>
             <p class="section-subheading">
-            Apply to Participate by
+            Applications closed:
             <time datetime="2025-08-08">August 22, 2025</time>
             </p>
     </div>
@@ -135,7 +135,7 @@ permalink: /
             <!-- Card: Ready to Apply (CTA) -->
             <div class="call-card call-card--cta">
             <div class="call-card-icon">✍️</div>
-            <h3>Ready to Apply?</h3>
+            <h3>Applications closed</h3>
             <p>
                 Complete the Google Form to share your interest and your accessibility recruiting experiences.
             </p>
@@ -143,7 +143,7 @@ permalink: /
                 class="btn btn-primary"
                 href="https://forms.gle/XrTLxiypCMxgvmiF6"
             >
-                Apply to Participate
+                Applications closed
             </a>
             </div>
         </div>
