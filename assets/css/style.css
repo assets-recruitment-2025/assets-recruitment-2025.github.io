@@ -637,3 +637,27 @@ img {
   /* 6th item → 2nd upcoming → go into column 3 */
   grid-column: 3;
 }
+
+.hero-milestones .milestone.upcoming .sessions {
+  /* keep everything on one line */
+  white-space: nowrap;
+  /* if you want a little breathing room between items: */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* force all text in the milestones box to use the normal --clr-text (black) */
+.hero-milestones {
+  color: var(--clr-text);
+}
+
+/* if you still want “past” items a bit muted, drop only the opacity */
+.hero-milestones .milestone.past {
+  opacity: 0.6;   /* no need to re-set color here */
+}
+
+/* keep the upcoming items fully opaque */
+.hero-milestones .milestone.upcoming {
+  opacity: 1;
+}
