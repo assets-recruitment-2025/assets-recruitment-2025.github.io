@@ -52,7 +52,6 @@ permalink: /
       <div>
         <strong>Workshop sessions:</strong>
         <!-- wrap in <time> so our block‐rule catches it -->
-        •
         <time datetime="2025-10-21">Oct 21</time>
         •
         <time datetime="2025-10-22">Oct 22</time>
@@ -167,7 +166,7 @@ permalink: /
 
 <!-- 1) Intro paragraph -->
 <p>
-We will run the workshop online via Zoom across three sessions (see <strong>Table 1</strong>) during the week of October 20–26. We will divide it into three online sessions spread over multiple days to reduce participant fatigue. The exact dates and times for the sessions will be determined based on selected participants' availability.
+We will run the workshop online via Zoom across three sessions (see <strong>Table 1</strong>) during the week of October 20–26. We will divide it into three online sessions spread over multiple days to reduce participant fatigue. The exact dates and times based on selected participants' availability are locked in below.
 </p>
 
   <!-- 2) Phases grid -->
@@ -176,10 +175,10 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <h3>Before the Workshop</h3>
       <ul>
         <li>
-          A welcome email will include instructions on how to join the workshops’ Discord, and a poll for participants' specific topics of interest (for Session 2) and availability for different options for the three sessions, due <strong>September 1, 2025</strong>.
+          We will communicate by email with instructions on how to register, a link to submit your availability for the three sessions, prompts to share your topic interests (for Session 2), and details on joining the workshop’s Discord.
         </li>
         <li>
-          We will also request that participants prepare 1-2 slides or a 1-minute video introduction by <strong>September 30, 2025</strong>, which we will share asynchronously before the workshop begins.
+          We will also ask each participant to submit a short paragraph introducing themselves.
         </li>
       </ul>
     </div>
@@ -212,7 +211,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
 
   <!-- 3) Sessions table -->
   <table class="schedule-table" aria-label="Session schedule">
-    <caption> <strong>Table 1.</strong> Workshop Session Schedule</caption>
+    <caption> <strong>Table 1.</strong> Final Workshop Session Dates &amp; Times</caption>
     <thead>
       <tr>
         <th>Session</th>

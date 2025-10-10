@@ -588,62 +588,36 @@ img {
   border: 0;
 }
 
-/* —— Hero Milestones Bar —— */
 .hero-milestones {
-  display: flex;
-  flex-wrap: wrap;
+  /* switch from flex to grid with 2 rows */
+  display: grid;
+  grid-template-rows: auto auto;
+  /* flow items left-to-right, then wrap into the next row */
+  grid-auto-flow: column;
   gap: var(--gap);
   max-width: var(--site-max);
-  margin: 2rem auto 0;
-  padding: 1.5rem;
-  background: rgba(0,0,0,0.05);
+  margin: 2rem auto;
+  background: var(--clr-surface);
+  padding: 1.5rem 2rem;
   border-radius: var(--radius);
 }
 
-.hero-milestones .milestone {
-  flex: 1 1 180px;               /* allow wrap */
-  display: flex;
-  align-items: flex-start;
-  background: #fff;
-  padding: 1rem;
-  border-radius: var(--radius);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-/* dim out anything in the past */
 .hero-milestones .milestone.past {
-  opacity: 0.5;
-}
-
-/* highlight upcoming items */
-.hero-milestones .milestone.upcoming {
-  border: 2px solid var(--clr-accent);
-}
-
-/* icon styling */
-.hero-milestones .milestone .icon {
-  font-size: 1.75rem;
-  line-height: 1;
-  margin-right: 0.75rem;
-  flex-shrink: 0;
-}
-
-/* label + date wrapper */
-.hero-milestones .milestone > div {
-  display: flex;
-  flex-direction: column;
-}
-
-/* make the label bold and on its own line */
-.hero-milestones .milestone > div > strong {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-}
-
-/* force every date onto its own line */
-.hero-milestones .milestone time {
-  display: block;
-  font-weight: 400;
+  /* force into first row */
+  grid-row: 1;
   color: var(--clr-text-muted);
+  opacity: 0.6;
+}
+
+.hero-milestones .milestone.upcoming {
+  /* force into second row */
+  grid-row: 2;
+  color: var(--clr-text);
+}
+
+/* icon sizing, spacing stays the same */
+.hero-milestones .milestone {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
