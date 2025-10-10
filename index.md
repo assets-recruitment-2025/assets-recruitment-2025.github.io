@@ -14,28 +14,46 @@ permalink: /
   <!-- Milestones bar -->
   <div class="hero-milestones">
     <div class="milestone past">
-      <strong>Applications closed:</strong>
-      <time datetime="2025-08-22">Aug 22, 2025</time>
+      <span class="icon">✔︎</span>
+      <div>
+        <strong>Applications closed</strong>
+        <time datetime="2025-08-22">Aug 22, 2025</time>
+      </div>
     </div>
     <div class="milestone past">
-      <strong>Welcome email sent:</strong>
-      <time datetime="2025-08-25">Aug 25, 2025</time> 
+      <span class="icon">✔︎</span>
+      <div>
+        <strong>Welcome email sent</strong>
+        <time datetime="2025-08-25">Aug 25, 2025</time>
+      </div>
     </div>
     <div class="milestone past">
-      <strong>Early registration:</strong>
-      <time datetime="2025-08-28">Aug 28, 2025</time> 
+      <span class="icon">✔︎</span>
+      <div>
+        <strong>Early registration opened</strong>
+        <time datetime="2025-08-28">Aug 28, 2025</time>
+      </div>
     </div>
     <div class="milestone past">
-      <strong>Availability poll sent:</strong>
-      <time datetime="2025-09-25">Sep 25, 2025</time> 
+      <span class="icon">✔︎</span>
+      <div>
+        <strong>Availability poll sent</strong>
+        <time datetime="2025-09-25">Sep 25, 2025</time>
+      </div>
     </div>
     <div class="milestone upcoming">
-      <strong>Registration deadline:</strong>
-      <time datetime="2025-10-19">Oct 19, 2025</time>
+      <span class="icon">⏳</span>
+      <div>
+        <strong>Register by</strong>
+        <time datetime="2025-10-19">Oct 19, 2025</time>
+      </div>
     </div>
     <div class="milestone upcoming">
-      <strong>Workshop sessions:</strong>
-      Oct 21 • Oct 22 • Oct 24
+      <span class="icon">📅</span>
+      <div>
+        <strong>Workshop sessions</strong>
+        Oct 21 • Oct 22 • Oct 24
+      </div>
     </div>
   </div>
 
@@ -50,7 +68,6 @@ permalink: /
       Registration closes <time datetime="2025-10-19">Oct 19, 2025</time>
     </p>
   </div>
-
 </section>
 
  <!-- ABOUT -->
