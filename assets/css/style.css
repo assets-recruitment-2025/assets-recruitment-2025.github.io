@@ -588,33 +588,36 @@ img {
   border: 0;
 }
 
-/* container box */
 .hero-milestones {
-  background: var(--clr-surface);
-  padding: 2rem;
-  border-radius: var(--radius);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  /* switch from flex to grid with 2 rows */
+  display: grid;
+  grid-template-rows: auto auto;
+  /* flow items left-to-right, then wrap into the next row */
+  grid-auto-flow: column;
+  gap: var(--gap);
   max-width: var(--site-max);
   margin: 2rem auto;
+  background: var(--clr-surface);
+  padding: 1.5rem 2rem;
+  border-radius: var(--radius);
 }
 
-/* each milestone */
-.hero-milestones .milestone {
-  flex: 1 1 180px;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-/* past dates are grayed out */
 .hero-milestones .milestone.past {
+  /* force into first row */
+  grid-row: 1;
   color: var(--clr-text-muted);
   opacity: 0.6;
 }
 
-/* upcoming dates stay full-strength */
 .hero-milestones .milestone.upcoming {
+  /* force into second row */
+  grid-row: 2;
   color: var(--clr-text);
+}
+
+/* icon sizing, spacing stays the same */
+.hero-milestones .milestone {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
