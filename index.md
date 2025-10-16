@@ -211,7 +211,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <tr>
         <th>Session</th>
         <th>Date</th>
-        <th>Time (ET)</th>
+        <th>Time (Eastern | Pacific | East African time)</th>
         <th>Duration</th>
         <th>Focus</th>
       </tr>
@@ -220,7 +220,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <tr>
         <td>Session 1</td>
         <td>Oct 21, 2025</td>
-        <td>3:00 PM – 4:30 PM</td>
+        <td>3:00 PM – 4:30 PM (Eastern) | 12:00 PM – 1:30 PM (Pacific) | 10:00 PM – 11:30 PM (East African time)</td>
         <td>90 min</td>
         <td>
           Welcome & introductions, followed by themed group discussions and summarization.
@@ -229,7 +229,7 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <tr>
         <td>Session 2</td>
         <td>Oct 22, 2025</td>
-        <td>3:00 PM – 4:30 PM</td>
+        <td>3:00 PM – 4:30 PM (Eastern) | 12:00 PM – 1:30 PM (Pacific) | 10:00 PM – 11:30 PM (East African time)</td>
         <td>90 min</td>
         <td>
           Begin with a shareout from the small groups from Session 1, including discussions on Discord. Then, interest-based group discussions and summarization.
@@ -238,8 +238,8 @@ We will run the workshop online via Zoom across three sessions (see <strong>Tabl
       <tr>
         <td>Session 3</td>
         <td>Oct 24, 2025</td>
-        <td>11:00 AM – 12:00 PM</td>
-        <td>90 min</td>
+        <td>11:00 AM – 12:00 PM (Eastern) | 8:00 AM – 9:00 AM (Pacific) | 6:00 PM – 7:00 PM (East African time)</td>
+        <td>60 min</td>
         <td>
           Begin with a shareout from the small groups from Session 2, including discussions on Discord. Then, identify themes, concrete recommendations, and lingering questions identified throughout the workshop.
         </td>
