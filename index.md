@@ -52,7 +52,7 @@ permalink: /
       <div>
         <strong>Workshop sessions:</strong>
         <!-- wrap in <time> so our block‐rule catches it -->
-        <time>Oct 21 • Oct 22 • Oct 24, 2025</time>
+        <time>Oct 21 • Oct 22 • Oct 24</time>
       </div>
     </div>
   </div>
