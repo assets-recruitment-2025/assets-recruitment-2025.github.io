@@ -15,7 +15,7 @@ permalink: /
     <div class="milestone past">
       <span class="icon">✔︎</span>
       <div>
-        <strong>Applications closed:</strong>
+        <strong>Application closed:</strong>
         <time datetime="2025-08-22">Aug 22, 2025</time>
       </div>
     </div>
@@ -43,7 +43,7 @@ permalink: /
     <div class="milestone upcoming">
       <span class="icon">⏳</span>
       <div>
-        <strong>Register by 11:59 PM on:</strong>
+        <strong>Registration closed:</strong>
         <time datetime="2025-10-19">Oct 19, 2025</time>
       </div>
     </div>
@@ -57,17 +57,17 @@ permalink: /
     </div>
   </div>
 
-  <div class="hero-cta">
+  <!--<div class="hero-cta">
     <a
       class="btn btn-primary"
       href="https://web.cvent.com/event/2197df01-92d8-4c44-8ac6-4de540b0d61f/summary"
     >
-      Register
+      Registration closed
     </a>
     <p class="deadline">
-      Registration closes by 11:59 PM on <time datetime="2025-10-19">Oct 19, 2025</time>
+      Registration closed on <time datetime="2025-10-19">Oct 19, 2025</time>
     </p>
-  </div>
+  </div>-->
 </section>
 
 
@@ -100,7 +100,7 @@ permalink: /
             Call for Participation
             </h2>
             <p class="section-subheading">
-            Applications closed:
+            Application closed:
             <time datetime="2025-08-08">August 22, 2025</time>
             </p>
     </div>
@@ -129,7 +129,7 @@ permalink: /
             <!-- Card: Ready to Apply (CTA) -->
             <div class="call-card call-card--cta">
             <div class="call-card-icon">✍️</div>
-            <h3>Applications closed</h3>
+            <h3>Application closed</h3>
             <p>
                 Complete the Google Form to share your interest and your accessibility recruiting experiences.
             </p>
@@ -137,7 +137,7 @@ permalink: /
                 class="btn btn-primary"
                 href="https://forms.gle/XrTLxiypCMxgvmiF6"
             >
-                Applications closed
+                Application closed
             </a>
             </div>
         </div>
