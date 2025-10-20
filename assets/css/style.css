@@ -624,8 +624,8 @@ img {
 }
 
 .hero-milestones {
-  /* make it a 4-column grid so we have 4 “slots” in each row */
-  grid-template-columns: repeat(4, auto);
+  /* make it a 4-column grid so we have 5 “slots” in each row */
+  grid-template-columns: repeat(5, auto);
 }
 
 .hero-milestones > .milestone.upcoming:nth-child(5) {

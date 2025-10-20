@@ -40,8 +40,8 @@ permalink: /
         <time datetime="2025-09-25">Sep 25, 2025</time>
       </div>
     </div>
-    <div class="milestone upcoming">
-      <span class="icon">⏳</span>
+    <div class="milestone past">
+      <span class="icon">✔︎</span>
       <div>
         <strong>Registration closed:</strong>
         <time datetime="2025-10-19">Oct 19, 2025</time>
